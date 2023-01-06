@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14030A0C1B78BE9400F79579 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14030A0B1B78BE9400F79579 /* Storyboard.storyboard */; };
+		141CB1861B3937820076E2A1 /* WorkingJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CB1851B3937820076E2A1 /* WorkingJournalViewController.swift */; };
+		143A5FF51AEA655300CBEF3C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A5FF41AEA655300CBEF3C /* StartViewController.swift */; };
+		143A5FF71AEA7BCD00CBEF3C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A5FF61AEA7BCD00CBEF3C /* CustomButton.swift */; };
+		143B74921B1AF031008093C8 /* Pesticide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B74911B1AF031008093C8 /* Pesticide.swift */; };
+		143B74981B1AF04A008093C8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B74971B1AF04A008093C8 /* Category.swift */; };
+		143B749A1B1AF067008093C8 /* Fertilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B74991B1AF067008093C8 /* Fertilizer.swift */; };
+		143B749C1B1AF83C008093C8 /* Land.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B749B1B1AF83C008093C8 /* Land.swift */; };
+		143B749E1B1AFA31008093C8 /* VQuarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B749D1B1AFA31008093C8 /* VQuarter.swift */; };
+		143C48BB1AEE7A4B00C6D2FC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48BA1AEE7A4B00C6D2FC /* CFNetwork.framework */; };
+		143C48BD1AEE7A6600C6D2FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48BC1AEE7A6600C6D2FC /* Security.framework */; };
+		143C48BF1AEE7A8C00C6D2FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48BE1AEE7A8C00C6D2FC /* SystemConfiguration.framework */; };
+		143C48C11AEE7AA000C6D2FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48C01AEE7AA000C6D2FC /* QuartzCore.framework */; };
+		143C48C31AEE7AC600C6D2FC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48C21AEE7AC600C6D2FC /* libc++.dylib */; };
+		143C48C51AEE7AD500C6D2FC /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C48C41AEE7AD500C6D2FC /* libc.dylib */; };
+		143C48CA1AEE7DBA00C6D2FC /* DropboxSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C48C91AEE7DBA00C6D2FC /* DropboxSyncService.swift */; };
+		143CB8081B0CD60C00643A79 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CB8071B0CD60C00643A79 /* Worker.swift */; };
+		143CB80E1B0CD61800643A79 /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CB80D1B0CD61800643A79 /* Machine.swift */; };
+		143FA8D81AEA9D2000878240 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FA8D71AEA9D2000878240 /* SettingsTableViewController.swift */; };
+		14433FEA1AF1FFCC005028BF /* DBFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14433FE91AF1FFCC005028BF /* DBFile.swift */; };
+		144F7E271AEFD3F6005A7EE9 /* DBFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144F7E261AEFD3F6005A7EE9 /* DBFileSystem.swift */; };
+		145A0D0D1C42F1DF00D752A9 /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A0D0C1C42F1DF00D752A9 /* ProductInfoViewController.swift */; };
+		14690DCB1C4A26E30084E042 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14690DCA1C4A26E30084E042 /* SearchResultViewController.swift */; };
+		14690DD41C4A29280084E042 /* resultTitelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14690DD31C4A29280084E042 /* resultTitelCell.xib */; };
+		14690DD81C4A2ABD0084E042 /* ResultTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14690DD71C4A2ABD0084E042 /* ResultTitleCell.swift */; };
+		147238F11B78B2AD00B9D603 /* SprayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147238F01B78B2AD00B9D603 /* SprayingViewController.swift */; };
+		1474154B1BFF2F7B00DE1BFD /* SoilFertilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474154A1BFF2F7B00DE1BFD /* SoilFertilizer.swift */; };
+		147415541BFF319300DE1BFD /* SoilFertilizerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147415531BFF319300DE1BFD /* SoilFertilizerDataHelper.swift */; };
+		1479FDBB1B04C04400F52364 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479FDBA1B04C04400F52364 /* Protocols.swift */; };
+		148BBDA21C1D671700A1D4E3 /* purchaseProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148BBDA11C1D671700A1D4E3 /* purchaseProduct.xib */; };
+		148BBDAB1C1D688F00A1D4E3 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBDAA1C1D688F00A1D4E3 /* Purchase.swift */; };
+		148BBDAD1C1D6A4800A1D4E3 /* PurchasePestDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBDAC1C1D6A4800A1D4E3 /* PurchasePestDataHelper.swift */; };
+		148BBDAF1C1D6B7800A1D4E3 /* PurchaseDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBDAE1C1D6B7800A1D4E3 /* PurchaseDataHelper.swift */; };
+		148BBDB11C1D738C00A1D4E3 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBDB01C1D738C00A1D4E3 /* DatePickerDialog.swift */; };
+		14986D741C005933009D1F9A /* InputSoilFertilizerAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14986D731C005933009D1F9A /* InputSoilFertilizerAmountViewController.swift */; };
+		14A8A6DA1B679298003BA900 /* workerMachineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A8A6D91B679298003BA900 /* workerMachineCell.xib */; };
+		14A8A6E01B679676003BA900 /* WorkerMachineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A6DF1B679676003BA900 /* WorkerMachineCell.swift */; };
+		14A8A6E21B6799EC003BA900 /* WorkerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A6E11B6799EC003BA900 /* WorkerDataHelper.swift */; };
+		14A8A6E41B68065A003BA900 /* WorkResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8A6E31B68065A003BA900 /* WorkResourcesViewController.swift */; };
+		14AE179C1AE29486006EA8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE179B1AE29486006EA8DA /* AppDelegate.swift */; };
+		14AE17A31AE29486006EA8DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE17A21AE29486006EA8DA /* Images.xcassets */; };
+		14AE17A61AE29486006EA8DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AE17A41AE29486006EA8DA /* LaunchScreen.xib */; };
+		14AE17D71AE297DF006EA8DA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE17D61AE297DF006EA8DA /* Settings.swift */; };
+		14AE17DB1AE2983F006EA8DA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE17DA1AE2983F006EA8DA /* Task.swift */; };
+		14DF35F01B60CE5E007D2BF8 /* WorkVQuarterDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF35EF1B60CE5E007D2BF8 /* WorkVQuarterDataHelper.swift */; };
+		14DF35F81B61125E007D2BF8 /* WorkTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF35F71B61125E007D2BF8 /* WorkTabBarController.swift */; };
+		14DF56061B9DFC80002E782C /* sprayProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DF56051B9DFC80002E782C /* sprayProductCell.xib */; };
+		14DF560C1B9DFED9002E782C /* SprayProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF560B1B9DFED9002E782C /* SprayProductCell.swift */; };
+		14E024411BF3A29F00A91C0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E024401BF3A29F00A91C0F /* CategoryViewController.swift */; };
+		14E09EC61C1C653500AF8043 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E09EC51C1C653500AF8043 /* PurchaseViewController.swift */; };
+		14E09ECF1C1C6FCF00AF8043 /* PurchaseHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E09ECE1C1C6FCF00AF8043 /* PurchaseHeaderCell.swift */; };
+		14E09ED11C1C6FFC00AF8043 /* PurchaseProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E09ED01C1C6FFC00AF8043 /* PurchaseProductCell.swift */; };
+		14E09ED31C1C705A00AF8043 /* purchaseHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E09ED21C1C705A00AF8043 /* purchaseHeaderCell.xib */; };
+		14E13F6D1B7390360012795F /* PesticideDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E13F6C1B7390360012795F /* PesticideDataHelper.swift */; };
+		14E1892E1B3AD1C100516C70 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1892D1B3AD1C100516C70 /* Work.swift */; };
+		14E3A2E81B550C5C0000B5B5 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3A2E71B550C5C0000B5B5 /* NSDate.swift */; };
+		14E4C76F1C0447790018D024 /* SoilFertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4C76E1C0447790018D024 /* SoilFertCell.swift */; };
+		14E4F8E41B7CC3BE00677E55 /* Spraying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4F8E31B7CC3BE00677E55 /* Spraying.swift */; };
+		14E4F8EA1B7CC50200677E55 /* SprayingDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4F8E91B7CC50200677E55 /* SprayingDataHelper.swift */; };
+		14E546851C2316570053C0AC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E546841C2316570053C0AC /* Global.swift */; };
+		14E5468E1C233C990053C0AC /* PurchasePesticide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5468D1C233C990053C0AC /* PurchasePesticide.swift */; };
+		14E546901C233CB90053C0AC /* PurchaseFertilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5468F1C233CB90053C0AC /* PurchaseFertilizer.swift */; };
+		14E546921C233DF20053C0AC /* PurchaseFertDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E546911C233DF20053C0AC /* PurchaseFertDataHelper.swift */; };
+		14E57FB81BD796E400022840 /* Harvest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E57FB71BD796E400022840 /* Harvest.swift */; };
+		14E57FC11BD79A6300022840 /* HarvestDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E57FC01BD79A6300022840 /* HarvestDataHelper.swift */; };
+		14E5A2851BA0171400DAA191 /* SprayFertilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5A2841BA0171400DAA191 /* SprayFertilizer.swift */; };
+		14E5A28B1BA01A0A00DAA191 /* SprayFertilizerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5A28A1BA01A0A00DAA191 /* SprayFertilizerHelper.swift */; };
+		14E607F91B71E5EA008D91F5 /* WorkMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E607F81B71E5EA008D91F5 /* WorkMachineViewController.swift */; };
+		14E607FF1B71E98B008D91F5 /* MachineDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E607FE1B71E98B008D91F5 /* MachineDataHelper.swift */; };
+		14E633461BD1370B000FEA3F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E633451BD1370B000FEA3F /* Util.swift */; };
+		14E649DB1BD578C1001DF72C /* HarvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E649DA1BD578C1001DF72C /* HarvestViewController.swift */; };
+		14E6883D1B90ABD4001B6EFD /* PesticideFertilizerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E6883C1B90ABD4001B6EFD /* PesticideFertilizerController.swift */; };
+		14E699951C2694AC00374558 /* InputPurchaseAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E699941C2694AC00374558 /* InputPurchaseAmountViewController.swift */; };
+		14E8DDEA1B9B1A0500F78483 /* SprayPesticide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8DDE91B9B1A0500F78483 /* SprayPesticide.swift */; };
+		14E8DDF01B9B1B4100F78483 /* SprayPesticideHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8DDEF1B9B1B4100F78483 /* SprayPesticideHelper.swift */; };
+		14E941621C3C4F2A00B3820B /* worksListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E941611C3C4F2A00B3820B /* worksListCell.xib */; };
+		14E9910B1C4B7B56002642C9 /* MultQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9910A1C4B7B56002642C9 /* MultQueries.swift */; };
+		14E9E40F1C6B85EC00779693 /* HoursWorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9E40E1C6B85EC00779693 /* HoursWorkerViewController.swift */; };
+		14EA428A1B3D8D5F0003AA01 /* DaoSqlLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA42891B3D8D5F0003AA01 /* DaoSqlLite.swift */; };
+		14EB1BB91BD8B564000DA35F /* HarvestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB1BB81BD8B564000DA35F /* HarvestCell.swift */; };
+		14EB209F1B579D9F00AB7277 /* WorkEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB209E1B579D9F00AB7277 /* WorkEditViewController.swift */; };
+		14EB23AA1B9C185400AE2088 /* InputDoseAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB23A91B9C185400AE2088 /* InputDoseAmountViewController.swift */; };
+		14EB2B3E1B5937B5004D848E /* WorkWorkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB2B3D1B5937B5004D848E /* WorkWorkerViewController.swift */; };
+		14EBC0791C3CFB1800BBD330 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBC0781C3CFB1800BBD330 /* WorkCell.swift */; };
+		14EBD6B11B49622C002C0AF6 /* TaskDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBD6B01B49622C002C0AF6 /* TaskDataHelper.swift */; };
+		14EBD6B71B496239002C0AF6 /* WorkDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBD6B61B496239002C0AF6 /* WorkDataHelper.swift */; };
+		14EC15F31B5E6B120046213B /* VQuarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC15F21B5E6B120046213B /* VQuarterViewController.swift */; };
+		14EC15FA1B5E6C310046213B /* vwVarQuarterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EC15F91B5E6C310046213B /* vwVarQuarterCell.xib */; };
+		14EC15FC1B5E6C3E0046213B /* vwAnlagenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EC15FB1B5E6C3E0046213B /* vwAnlagenCell.xib */; };
+		14EC15FE1B5E6C500046213B /* VQuarterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC15FD1B5E6C500046213B /* VQuarterCell.swift */; };
+		14EC16001B5E6C5B0046213B /* AnlagenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC15FF1B5E6C5B0046213B /* AnlagenCell.swift */; };
+		14EC16021B5E6CC00046213B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC16011B5E6CC00046213B /* CheckBox.swift */; };
+		14EC16041B5E6D970046213B /* LandDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC16031B5E6D970046213B /* LandDataHelper.swift */; };
+		14EC16061B5EB3CD0046213B /* VQuarterDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC16051B5EB3CD0046213B /* VQuarterDataHelper.swift */; };
+		14EC97EC1C53E03200B6A61F /* MoFaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC97EB1C53E03200B6A61F /* MoFaInfoViewController.swift */; };
+		14ECFEC61B850004000CEBF1 /* FertilizerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ECFEC51B850004000CEBF1 /* FertilizerDataHelper.swift */; };
+		14ED1C311B68B9250003025E /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED1C301B68B9250003025E /* SliderViewController.swift */; };
+		14ED1C371B69046B0003025E /* WorkWorkerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED1C361B69046B0003025E /* WorkWorkerDataHelper.swift */; };
+		14ED1C391B6905A80003025E /* WorkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED1C381B6905A80003025E /* WorkWorker.swift */; };
+		14ED3C221BEE503C0086E961 /* CategoryDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED3C211BEE503C0086E961 /* CategoryDataHelper.swift */; };
+		14ED4EB71BA6C48300B7BADB /* GenerateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED4EB61BA6C48300B7BADB /* GenerateFile.swift */; };
+		14EEFB0D1BF1030500AD4917 /* HarvestEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EEFB0C1BF1030500AD4917 /* HarvestEditViewController.swift */; };
+		14F0E1F91C36CBD200D5432D /* ImportDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F0E1F81C36CBD200D5432D /* ImportDataViewController.swift */; };
+		14F29A111B70B84300CEF466 /* WorkMachineDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F29A101B70B84300CEF466 /* WorkMachineDataHelper.swift */; };
+		14F29A171B70B8D400CEF466 /* WorkMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F29A161B70B8D400CEF466 /* WorkMachine.swift */; };
+		14F3C3BB1C482483008798EB /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3C3BA1C482483008798EB /* SearchCell.swift */; };
+		14F517791BFF613400EEE24C /* SoilFertilizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F517781BFF613400EEE24C /* SoilFertilizerViewController.swift */; };
+		14F517821BFF6A8E00EEE24C /* WorkFertilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F517811BFF6A8E00EEE24C /* WorkFertilizer.swift */; };
+		14F517841BFF6BF200EEE24C /* WorkFertilizerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F517831BFF6BF200EEE24C /* WorkFertilizerDataHelper.swift */; };
+		14F517861BFF773900EEE24C /* SoilFertilizerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F517851BFF773900EEE24C /* SoilFertilizerListViewController.swift */; };
+		14F920431C455BD300D92EF1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F920421C455BD300D92EF1 /* SearchViewController.swift */; };
+		14F9204C1C4563E100D92EF1 /* SwiftyAccordionCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9204B1C4563E100D92EF1 /* SwiftyAccordionCells.swift */; };
+		14FBFEEA1B491FC200697CEF /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBFEE91B491FC200697CEF /* WorkTableViewCell.swift */; };
+		47F019E3B1CC62B1B61F6969 /* Pods_MoFa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C233C67EDC17C72A08E5E /* Pods_MoFa.framework */; };
+		CE3E4B671E0C5BC00088F248 /* VegDataInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E4B661E0C5BC00088F248 /* VegDataInputViewController.swift */; };
+		CE4DFB0C201F2734001A7B7C /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DFB0B201F2734001A7B7C /* UIElements.swift */; };
+		CE4DFB0E201F279F001A7B7C /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DFB0D201F279F001A7B7C /* MyPickerView.swift */; };
+		CE5787E81DE8953A001B5E20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5787E71DE8953A001B5E20 /* Alamofire.framework */; };
+		CE5787F11DE89935001B5E20 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE5787E71DE8953A001B5E20 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE5787F31DE899C2001B5E20 /* RATreeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5787F21DE899C2001B5E20 /* RATreeView.framework */; };
+		CE6072831D59D46000C927DC /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6072821D59D46000C927DC /* GlobalData.swift */; };
+		CE75D7B81DEE0EAD00CF61C8 /* BlossomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75D7B71DEE0EAD00CF61C8 /* BlossomViewController.swift */; };
+		CEA177C72017C8DF006BF7F6 /* WirkungWarteFrist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA177C62017C8DF006BF7F6 /* WirkungWarteFrist.swift */; };
+		CEA47A4D1DEEB621009B6E1F /* blossomLandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA47A4C1DEEB621009B6E1F /* blossomLandCell.xib */; };
+		CEA47A4F1DEEB63D009B6E1F /* blossomVquarterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA47A4E1DEEB63D009B6E1F /* blossomVquarterCell.xib */; };
+		CEBAF4F11D5A0D2C0085EB75 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAF4F01D5A0D2C0085EB75 /* WaterViewController.swift */; };
+		CEBAF4F81D5A200C0085EB75 /* GlobalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAF4F71D5A200C0085EB75 /* GlobalDataHelper.swift */; };
+		CEBB713E2028D3FE00AB57F6 /* PestReasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB713D2028D3FE00AB57F6 /* PestReasons.swift */; };
+		CEC028E31E10659F00AED12B /* mofadbios.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2EE2CC1DEAC97500AD84ED /* mofadbios.sqlite3 */; };
+		CEC97AFF1DE96A7400CB4F32 /* RATreeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE5787F21DE899C2001B5E20 /* RATreeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CED2E03E1DEF23E700E46E06 /* BlossomLandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E03D1DEF23E700E46E06 /* BlossomLandCell.swift */; };
+		CED2E0471DEF240800E46E06 /* BlossomVquarterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E0461DEF240800E46E06 /* BlossomVquarterCell.swift */; };
+		CEFB572A1D58DF140060EA17 /* DatabaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB57291D58DF140060EA17 /* DatabaseExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7DD2991CBF991C0093E180 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEC97AFF1DE96A7400CB4F32 /* RATreeView.framework in Embed Frameworks */,
+				CE5787F11DE89935001B5E20 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14030A0B1B78BE9400F79579 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		141CB1851B3937820076E2A1 /* WorkingJournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkingJournalViewController.swift; sourceTree = "<group>"; };
+		143A5FF41AEA655300CBEF3C /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		143A5FF61AEA7BCD00CBEF3C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		143B74911B1AF031008093C8 /* Pesticide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pesticide.swift; sourceTree = "<group>"; };
+		143B74971B1AF04A008093C8 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		143B74991B1AF067008093C8 /* Fertilizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fertilizer.swift; sourceTree = "<group>"; };
+		143B749B1B1AF83C008093C8 /* Land.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Land.swift; sourceTree = "<group>"; };
+		143B749D1B1AFA31008093C8 /* VQuarter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VQuarter.swift; sourceTree = "<group>"; };
+		143C48BA1AEE7A4B00C6D2FC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		143C48BC1AEE7A6600C6D2FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		143C48BE1AEE7A8C00C6D2FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		143C48C01AEE7AA000C6D2FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		143C48C21AEE7AC600C6D2FC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		143C48C41AEE7AD500C6D2FC /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		143C48C91AEE7DBA00C6D2FC /* DropboxSyncService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxSyncService.swift; sourceTree = "<group>"; };
+		143C48CE1AEE878300C6D2FC /* Mofa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mofa-Bridging-Header.h"; sourceTree = "<group>"; };
+		143CB8071B0CD60C00643A79 /* Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		143CB80D1B0CD61800643A79 /* Machine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		143FA8D71AEA9D2000878240 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		14433FE91AF1FFCC005028BF /* DBFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFile.swift; sourceTree = "<group>"; };
+		144F7E261AEFD3F6005A7EE9 /* DBFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFileSystem.swift; sourceTree = "<group>"; };
+		145A0D0C1C42F1DF00D752A9 /* ProductInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
+		14690DCA1C4A26E30084E042 /* SearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		14690DD31C4A29280084E042 /* resultTitelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = resultTitelCell.xib; sourceTree = "<group>"; };
+		14690DD71C4A2ABD0084E042 /* ResultTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTitleCell.swift; sourceTree = "<group>"; };
+		147238F01B78B2AD00B9D603 /* SprayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayingViewController.swift; sourceTree = "<group>"; };
+		1474154A1BFF2F7B00DE1BFD /* SoilFertilizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoilFertilizer.swift; sourceTree = "<group>"; };
+		147415531BFF319300DE1BFD /* SoilFertilizerDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoilFertilizerDataHelper.swift; sourceTree = "<group>"; };
+		1479FDBA1B04C04400F52364 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		148BBDA11C1D671700A1D4E3 /* purchaseProduct.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = purchaseProduct.xib; sourceTree = "<group>"; };
+		148BBDAA1C1D688F00A1D4E3 /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		148BBDAC1C1D6A4800A1D4E3 /* PurchasePestDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasePestDataHelper.swift; sourceTree = "<group>"; };
+		148BBDAE1C1D6B7800A1D4E3 /* PurchaseDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseDataHelper.swift; sourceTree = "<group>"; };
+		148BBDB01C1D738C00A1D4E3 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		14986D731C005933009D1F9A /* InputSoilFertilizerAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSoilFertilizerAmountViewController.swift; sourceTree = "<group>"; };
+		14A8A6D91B679298003BA900 /* workerMachineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = workerMachineCell.xib; sourceTree = "<group>"; };
+		14A8A6DF1B679676003BA900 /* WorkerMachineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerMachineCell.swift; sourceTree = "<group>"; };
+		14A8A6E11B6799EC003BA900 /* WorkerDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerDataHelper.swift; sourceTree = "<group>"; };
+		14A8A6E31B68065A003BA900 /* WorkResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkResourcesViewController.swift; sourceTree = "<group>"; };
+		14AE17961AE29486006EA8DA /* MoFa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoFa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE179A1AE29486006EA8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE179B1AE29486006EA8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14AE17A21AE29486006EA8DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14AE17A51AE29486006EA8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14AE17B01AE29486006EA8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE17B11AE29486006EA8DA /* MoFaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoFaTests.swift; sourceTree = "<group>"; };
+		14AE17D61AE297DF006EA8DA /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		14AE17DA1AE2983F006EA8DA /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		14DF35EF1B60CE5E007D2BF8 /* WorkVQuarterDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkVQuarterDataHelper.swift; sourceTree = "<group>"; };
+		14DF35F71B61125E007D2BF8 /* WorkTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTabBarController.swift; sourceTree = "<group>"; };
+		14DF56051B9DFC80002E782C /* sprayProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sprayProductCell.xib; sourceTree = "<group>"; };
+		14DF560B1B9DFED9002E782C /* SprayProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayProductCell.swift; sourceTree = "<group>"; };
+		14E024401BF3A29F00A91C0F /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		14E09EC51C1C653500AF8043 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		14E09ECE1C1C6FCF00AF8043 /* PurchaseHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseHeaderCell.swift; sourceTree = "<group>"; };
+		14E09ED01C1C6FFC00AF8043 /* PurchaseProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseProductCell.swift; sourceTree = "<group>"; };
+		14E09ED21C1C705A00AF8043 /* purchaseHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = purchaseHeaderCell.xib; sourceTree = "<group>"; };
+		14E13F6C1B7390360012795F /* PesticideDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PesticideDataHelper.swift; sourceTree = "<group>"; };
+		14E1892D1B3AD1C100516C70 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		14E3A2E71B550C5C0000B5B5 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		14E4C76E1C0447790018D024 /* SoilFertCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoilFertCell.swift; sourceTree = "<group>"; };
+		14E4F8E31B7CC3BE00677E55 /* Spraying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spraying.swift; sourceTree = "<group>"; };
+		14E4F8E91B7CC50200677E55 /* SprayingDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayingDataHelper.swift; sourceTree = "<group>"; };
+		14E546841C2316570053C0AC /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		14E5468D1C233C990053C0AC /* PurchasePesticide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasePesticide.swift; sourceTree = "<group>"; };
+		14E5468F1C233CB90053C0AC /* PurchaseFertilizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseFertilizer.swift; sourceTree = "<group>"; };
+		14E546911C233DF20053C0AC /* PurchaseFertDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseFertDataHelper.swift; sourceTree = "<group>"; };
+		14E57FB71BD796E400022840 /* Harvest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Harvest.swift; sourceTree = "<group>"; };
+		14E57FC01BD79A6300022840 /* HarvestDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvestDataHelper.swift; sourceTree = "<group>"; };
+		14E5A2841BA0171400DAA191 /* SprayFertilizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayFertilizer.swift; sourceTree = "<group>"; };
+		14E5A28A1BA01A0A00DAA191 /* SprayFertilizerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayFertilizerHelper.swift; sourceTree = "<group>"; };
+		14E607F81B71E5EA008D91F5 /* WorkMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMachineViewController.swift; sourceTree = "<group>"; };
+		14E607FE1B71E98B008D91F5 /* MachineDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineDataHelper.swift; sourceTree = "<group>"; };
+		14E633451BD1370B000FEA3F /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		14E649DA1BD578C1001DF72C /* HarvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvestViewController.swift; sourceTree = "<group>"; };
+		14E6883C1B90ABD4001B6EFD /* PesticideFertilizerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PesticideFertilizerController.swift; sourceTree = "<group>"; };
+		14E699941C2694AC00374558 /* InputPurchaseAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputPurchaseAmountViewController.swift; sourceTree = "<group>"; };
+		14E8DDE91B9B1A0500F78483 /* SprayPesticide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayPesticide.swift; sourceTree = "<group>"; };
+		14E8DDEF1B9B1B4100F78483 /* SprayPesticideHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprayPesticideHelper.swift; sourceTree = "<group>"; };
+		14E941611C3C4F2A00B3820B /* worksListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = worksListCell.xib; sourceTree = "<group>"; };
+		14E9910A1C4B7B56002642C9 /* MultQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultQueries.swift; sourceTree = "<group>"; };
+		14E9E40E1C6B85EC00779693 /* HoursWorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursWorkerViewController.swift; sourceTree = "<group>"; };
+		14EA42891B3D8D5F0003AA01 /* DaoSqlLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoSqlLite.swift; sourceTree = "<group>"; };
+		14EB1BB81BD8B564000DA35F /* HarvestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvestCell.swift; sourceTree = "<group>"; };
+		14EB209E1B579D9F00AB7277 /* WorkEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkEditViewController.swift; sourceTree = "<group>"; };
+		14EB23A91B9C185400AE2088 /* InputDoseAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputDoseAmountViewController.swift; sourceTree = "<group>"; };
+		14EB2B3D1B5937B5004D848E /* WorkWorkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkWorkerViewController.swift; sourceTree = "<group>"; };
+		14EBC0781C3CFB1800BBD330 /* WorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		14EBD6B01B49622C002C0AF6 /* TaskDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDataHelper.swift; sourceTree = "<group>"; };
+		14EBD6B61B496239002C0AF6 /* WorkDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkDataHelper.swift; sourceTree = "<group>"; };
+		14EC15F21B5E6B120046213B /* VQuarterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VQuarterViewController.swift; sourceTree = "<group>"; };
+		14EC15F91B5E6C310046213B /* vwVarQuarterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vwVarQuarterCell.xib; sourceTree = "<group>"; };
+		14EC15FB1B5E6C3E0046213B /* vwAnlagenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vwAnlagenCell.xib; sourceTree = "<group>"; };
+		14EC15FD1B5E6C500046213B /* VQuarterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VQuarterCell.swift; sourceTree = "<group>"; };
+		14EC15FF1B5E6C5B0046213B /* AnlagenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnlagenCell.swift; sourceTree = "<group>"; };
+		14EC16011B5E6CC00046213B /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		14EC16031B5E6D970046213B /* LandDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandDataHelper.swift; sourceTree = "<group>"; };
+		14EC16051B5EB3CD0046213B /* VQuarterDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VQuarterDataHelper.swift; sourceTree = "<group>"; };
+		14EC97EB1C53E03200B6A61F /* MoFaInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoFaInfoViewController.swift; sourceTree = "<group>"; };
+		14ECFEC51B850004000CEBF1 /* FertilizerDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FertilizerDataHelper.swift; sourceTree = "<group>"; };
+		14ED1C301B68B9250003025E /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		14ED1C361B69046B0003025E /* WorkWorkerDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkWorkerDataHelper.swift; sourceTree = "<group>"; };
+		14ED1C381B6905A80003025E /* WorkWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkWorker.swift; sourceTree = "<group>"; };
+		14ED3C211BEE503C0086E961 /* CategoryDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDataHelper.swift; sourceTree = "<group>"; };
+		14ED4EB61BA6C48300B7BADB /* GenerateFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateFile.swift; sourceTree = "<group>"; };
+		14EEFB0C1BF1030500AD4917 /* HarvestEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvestEditViewController.swift; sourceTree = "<group>"; };
+		14F0E1F81C36CBD200D5432D /* ImportDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportDataViewController.swift; sourceTree = "<group>"; };
+		14F29A101B70B84300CEF466 /* WorkMachineDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMachineDataHelper.swift; sourceTree = "<group>"; };
+		14F29A161B70B8D400CEF466 /* WorkMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMachine.swift; sourceTree = "<group>"; };
+		14F3C3BA1C482483008798EB /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		14F517781BFF613400EEE24C /* SoilFertilizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoilFertilizerViewController.swift; sourceTree = "<group>"; };
+		14F517811BFF6A8E00EEE24C /* WorkFertilizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkFertilizer.swift; sourceTree = "<group>"; };
+		14F517831BFF6BF200EEE24C /* WorkFertilizerDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkFertilizerDataHelper.swift; sourceTree = "<group>"; };
+		14F517851BFF773900EEE24C /* SoilFertilizerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoilFertilizerListViewController.swift; sourceTree = "<group>"; };
+		14F920421C455BD300D92EF1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		14F9204B1C4563E100D92EF1 /* SwiftyAccordionCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAccordionCells.swift; sourceTree = "<group>"; };
+		14FBFEE91B491FC200697CEF /* WorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
+		1B4303835C1BDD345C53F721 /* Pods-MoFa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoFa/Pods-MoFa.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5C233C67EDC17C72A08E5E /* Pods_MoFa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoFa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		916B668EF6F255D1C35B66A0 /* Pods-MoFa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoFa/Pods-MoFa.release.xcconfig"; sourceTree = "<group>"; };
+		CE2EE2CC1DEAC97500AD84ED /* mofadbios.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mofadbios.sqlite3; sourceTree = "<group>"; };
+		CE3E4B661E0C5BC00088F248 /* VegDataInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegDataInputViewController.swift; sourceTree = "<group>"; };
+		CE4DFB0B201F2734001A7B7C /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		CE4DFB0D201F279F001A7B7C /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
+		CE5787E71DE8953A001B5E20 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/MoFa-dqorsaqeikgbdicoqxzgismghvpj/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		CE5787F21DE899C2001B5E20 /* RATreeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RATreeView.framework; path = "../../Library/Developer/Xcode/DerivedData/MoFa-dqorsaqeikgbdicoqxzgismghvpj/Build/Products/Debug-iphonesimulator/RATreeView/RATreeView.framework"; sourceTree = "<group>"; };
+		CE6072821D59D46000C927DC /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		CE67B3981DE5FD5600869736 /* MoFa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoFa.entitlements; sourceTree = "<group>"; };
+		CE75D7B71DEE0EAD00CF61C8 /* BlossomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlossomViewController.swift; sourceTree = "<group>"; };
+		CEA177C62017C8DF006BF7F6 /* WirkungWarteFrist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirkungWarteFrist.swift; sourceTree = "<group>"; };
+		CEA47A4C1DEEB621009B6E1F /* blossomLandCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blossomLandCell.xib; sourceTree = "<group>"; };
+		CEA47A4E1DEEB63D009B6E1F /* blossomVquarterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blossomVquarterCell.xib; sourceTree = "<group>"; };
+		CEBAF4F01D5A0D2C0085EB75 /* WaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		CEBAF4F71D5A200C0085EB75 /* GlobalDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDataHelper.swift; sourceTree = "<group>"; };
+		CEBB713D2028D3FE00AB57F6 /* PestReasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestReasons.swift; sourceTree = "<group>"; };
+		CED2E03D1DEF23E700E46E06 /* BlossomLandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlossomLandCell.swift; sourceTree = "<group>"; };
+		CED2E0461DEF240800E46E06 /* BlossomVquarterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlossomVquarterCell.swift; sourceTree = "<group>"; };
+		CEFB57291D58DF140060EA17 /* DatabaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14AE17931AE29486006EA8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5787F31DE899C2001B5E20 /* RATreeView.framework in Frameworks */,
+				CE5787E81DE8953A001B5E20 /* Alamofire.framework in Frameworks */,
+				143C48C51AEE7AD500C6D2FC /* libc.dylib in Frameworks */,
+				143C48C31AEE7AC600C6D2FC /* libc++.dylib in Frameworks */,
+				143C48C11AEE7AA000C6D2FC /* QuartzCore.framework in Frameworks */,
+				143C48BF1AEE7A8C00C6D2FC /* SystemConfiguration.framework in Frameworks */,
+				143C48BD1AEE7A6600C6D2FC /* Security.framework in Frameworks */,
+				143C48BB1AEE7A4B00C6D2FC /* CFNetwork.framework in Frameworks */,
+				47F019E3B1CC62B1B61F6969 /* Pods_MoFa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141CB1801B3937250076E2A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14EC15F21B5E6B120046213B /* VQuarterViewController.swift */,
+				143FA8D71AEA9D2000878240 /* SettingsTableViewController.swift */,
+				143A5FF41AEA655300CBEF3C /* StartViewController.swift */,
+				141CB1851B3937820076E2A1 /* WorkingJournalViewController.swift */,
+				14EB209E1B579D9F00AB7277 /* WorkEditViewController.swift */,
+				14EB2B3D1B5937B5004D848E /* WorkWorkerViewController.swift */,
+				14E607F81B71E5EA008D91F5 /* WorkMachineViewController.swift */,
+				14DF35F71B61125E007D2BF8 /* WorkTabBarController.swift */,
+				14A8A6E31B68065A003BA900 /* WorkResourcesViewController.swift */,
+				14ED1C301B68B9250003025E /* SliderViewController.swift */,
+				147238F01B78B2AD00B9D603 /* SprayingViewController.swift */,
+				14E6883C1B90ABD4001B6EFD /* PesticideFertilizerController.swift */,
+				14EB23A91B9C185400AE2088 /* InputDoseAmountViewController.swift */,
+				14986D731C005933009D1F9A /* InputSoilFertilizerAmountViewController.swift */,
+				CE3E4B661E0C5BC00088F248 /* VegDataInputViewController.swift */,
+				14E699941C2694AC00374558 /* InputPurchaseAmountViewController.swift */,
+				14E649DA1BD578C1001DF72C /* HarvestViewController.swift */,
+				14EEFB0C1BF1030500AD4917 /* HarvestEditViewController.swift */,
+				14E024401BF3A29F00A91C0F /* CategoryViewController.swift */,
+				14F517781BFF613400EEE24C /* SoilFertilizerViewController.swift */,
+				14F517851BFF773900EEE24C /* SoilFertilizerListViewController.swift */,
+				14E09EC51C1C653500AF8043 /* PurchaseViewController.swift */,
+				14F0E1F81C36CBD200D5432D /* ImportDataViewController.swift */,
+				145A0D0C1C42F1DF00D752A9 /* ProductInfoViewController.swift */,
+				14F920421C455BD300D92EF1 /* SearchViewController.swift */,
+				14690DCA1C4A26E30084E042 /* SearchResultViewController.swift */,
+				14EC97EB1C53E03200B6A61F /* MoFaInfoViewController.swift */,
+				14E9E40E1C6B85EC00779693 /* HoursWorkerViewController.swift */,
+				CEBAF4F01D5A0D2C0085EB75 /* WaterViewController.swift */,
+				CE75D7B71DEE0EAD00CF61C8 /* BlossomViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1421EB831B02320400EDCECB /* libs_external */ = {
+			isa = PBXGroup;
+			children = (
+				148BBDB01C1D738C00A1D4E3 /* DatePickerDialog.swift */,
+				14F9204B1C4563E100D92EF1 /* SwiftyAccordionCells.swift */,
+			);
+			name = libs_external;
+			sourceTree = "<group>";
+		};
+		14433FE41AF1FFA3005028BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				144F7E261AEFD3F6005A7EE9 /* DBFileSystem.swift */,
+				14433FE91AF1FFCC005028BF /* DBFile.swift */,
+				14E3A2E71B550C5C0000B5B5 /* NSDate.swift */,
+				CEFB57291D58DF140060EA17 /* DatabaseExtension.swift */,
+				CE4DFB0B201F2734001A7B7C /* UIElements.swift */,
+				CE4DFB0D201F279F001A7B7C /* MyPickerView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		14AE178D1AE29486006EA8DA = {
+			isa = PBXGroup;
+			children = (
+				143C48C41AEE7AD500C6D2FC /* libc.dylib */,
+				143C48C21AEE7AC600C6D2FC /* libc++.dylib */,
+				143C48C01AEE7AA000C6D2FC /* QuartzCore.framework */,
+				143C48BE1AEE7A8C00C6D2FC /* SystemConfiguration.framework */,
+				143C48BC1AEE7A6600C6D2FC /* Security.framework */,
+				143C48BA1AEE7A4B00C6D2FC /* CFNetwork.framework */,
+				14AE17981AE29486006EA8DA /* MoFa */,
+				14AE17AE1AE29486006EA8DA /* MoFaTests */,
+				14AE17971AE29486006EA8DA /* Products */,
+				EA2211BF42095B7F09866812 /* Frameworks */,
+				877F93A755A3C8EEFB9C42E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		14AE17971AE29486006EA8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14AE17961AE29486006EA8DA /* MoFa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14AE17981AE29486006EA8DA /* MoFa */ = {
+			isa = PBXGroup;
+			children = (
+				CE67B3981DE5FD5600869736 /* MoFa.entitlements */,
+				14030A0B1B78BE9400F79579 /* Storyboard.storyboard */,
+				14EC15F81B5E6C1D0046213B /* xibfiles */,
+				14FBFEE41B491F8000697CEF /* Views */,
+				14EA42841B3D8D370003AA01 /* dbconn */,
+				141CB1801B3937250076E2A1 /* ViewControllers */,
+				1421EB831B02320400EDCECB /* libs_external */,
+				14433FE41AF1FFA3005028BF /* Extensions */,
+				14AE17D91AE2981E006EA8DA /* dbdata */,
+				14AE17D81AE297F7006EA8DA /* general */,
+				14AE179B1AE29486006EA8DA /* AppDelegate.swift */,
+				14AE17A21AE29486006EA8DA /* Images.xcassets */,
+				14AE17A41AE29486006EA8DA /* LaunchScreen.xib */,
+				14AE17991AE29486006EA8DA /* Supporting Files */,
+				14EC16011B5E6CC00046213B /* CheckBox.swift */,
+				143C48C91AEE7DBA00C6D2FC /* DropboxSyncService.swift */,
+				143C48CE1AEE878300C6D2FC /* Mofa-Bridging-Header.h */,
+			);
+			path = MoFa;
+			sourceTree = "<group>";
+		};
+		14AE17991AE29486006EA8DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14AE179A1AE29486006EA8DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14AE17AE1AE29486006EA8DA /* MoFaTests */ = {
+			isa = PBXGroup;
+			children = (
+				14AE17B11AE29486006EA8DA /* MoFaTests.swift */,
+				14AE17AF1AE29486006EA8DA /* Supporting Files */,
+			);
+			path = MoFaTests;
+			sourceTree = "<group>";
+		};
+		14AE17AF1AE29486006EA8DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14AE17B01AE29486006EA8DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14AE17D81AE297F7006EA8DA /* general */ = {
+			isa = PBXGroup;
+			children = (
+				143A5FF61AEA7BCD00CBEF3C /* CustomButton.swift */,
+				14AE17D61AE297DF006EA8DA /* Settings.swift */,
+				1479FDBA1B04C04400F52364 /* Protocols.swift */,
+				14ED4EB61BA6C48300B7BADB /* GenerateFile.swift */,
+				CE2EE2CC1DEAC97500AD84ED /* mofadbios.sqlite3 */,
+				14E633451BD1370B000FEA3F /* Util.swift */,
+				14E546841C2316570053C0AC /* Global.swift */,
+			);
+			name = general;
+			sourceTree = "<group>";
+		};
+		14AE17D91AE2981E006EA8DA /* dbdata */ = {
+			isa = PBXGroup;
+			children = (
+				14AE17DA1AE2983F006EA8DA /* Task.swift */,
+				143CB8071B0CD60C00643A79 /* Worker.swift */,
+				143CB80D1B0CD61800643A79 /* Machine.swift */,
+				143B74911B1AF031008093C8 /* Pesticide.swift */,
+				143B74971B1AF04A008093C8 /* Category.swift */,
+				143B74991B1AF067008093C8 /* Fertilizer.swift */,
+				143B749B1B1AF83C008093C8 /* Land.swift */,
+				143B749D1B1AFA31008093C8 /* VQuarter.swift */,
+				14E1892D1B3AD1C100516C70 /* Work.swift */,
+				14ED1C381B6905A80003025E /* WorkWorker.swift */,
+				14F29A161B70B8D400CEF466 /* WorkMachine.swift */,
+				14E4F8E31B7CC3BE00677E55 /* Spraying.swift */,
+				14E8DDE91B9B1A0500F78483 /* SprayPesticide.swift */,
+				14E5A2841BA0171400DAA191 /* SprayFertilizer.swift */,
+				14E57FB71BD796E400022840 /* Harvest.swift */,
+				1474154A1BFF2F7B00DE1BFD /* SoilFertilizer.swift */,
+				14F517811BFF6A8E00EEE24C /* WorkFertilizer.swift */,
+				148BBDAA1C1D688F00A1D4E3 /* Purchase.swift */,
+				14E5468D1C233C990053C0AC /* PurchasePesticide.swift */,
+				14E5468F1C233CB90053C0AC /* PurchaseFertilizer.swift */,
+				CE6072821D59D46000C927DC /* GlobalData.swift */,
+				CEA177C62017C8DF006BF7F6 /* WirkungWarteFrist.swift */,
+				CEBB713D2028D3FE00AB57F6 /* PestReasons.swift */,
+			);
+			name = dbdata;
+			sourceTree = "<group>";
+		};
+		14EA42841B3D8D370003AA01 /* dbconn */ = {
+			isa = PBXGroup;
+			children = (
+				14EA42891B3D8D5F0003AA01 /* DaoSqlLite.swift */,
+				14E13F6C1B7390360012795F /* PesticideDataHelper.swift */,
+				14ECFEC51B850004000CEBF1 /* FertilizerDataHelper.swift */,
+				14EBD6B01B49622C002C0AF6 /* TaskDataHelper.swift */,
+				14EBD6B61B496239002C0AF6 /* WorkDataHelper.swift */,
+				14EC16031B5E6D970046213B /* LandDataHelper.swift */,
+				14EC16051B5EB3CD0046213B /* VQuarterDataHelper.swift */,
+				14DF35EF1B60CE5E007D2BF8 /* WorkVQuarterDataHelper.swift */,
+				14A8A6E11B6799EC003BA900 /* WorkerDataHelper.swift */,
+				14E607FE1B71E98B008D91F5 /* MachineDataHelper.swift */,
+				14ED1C361B69046B0003025E /* WorkWorkerDataHelper.swift */,
+				14F29A101B70B84300CEF466 /* WorkMachineDataHelper.swift */,
+				14E4F8E91B7CC50200677E55 /* SprayingDataHelper.swift */,
+				14E8DDEF1B9B1B4100F78483 /* SprayPesticideHelper.swift */,
+				14E5A28A1BA01A0A00DAA191 /* SprayFertilizerHelper.swift */,
+				14E57FC01BD79A6300022840 /* HarvestDataHelper.swift */,
+				14ED3C211BEE503C0086E961 /* CategoryDataHelper.swift */,
+				147415531BFF319300DE1BFD /* SoilFertilizerDataHelper.swift */,
+				14F517831BFF6BF200EEE24C /* WorkFertilizerDataHelper.swift */,
+				148BBDAE1C1D6B7800A1D4E3 /* PurchaseDataHelper.swift */,
+				148BBDAC1C1D6A4800A1D4E3 /* PurchasePestDataHelper.swift */,
+				14E546911C233DF20053C0AC /* PurchaseFertDataHelper.swift */,
+				14E9910A1C4B7B56002642C9 /* MultQueries.swift */,
+				CEBAF4F71D5A200C0085EB75 /* GlobalDataHelper.swift */,
+			);
+			name = dbconn;
+			sourceTree = "<group>";
+		};
+		14EC15F81B5E6C1D0046213B /* xibfiles */ = {
+			isa = PBXGroup;
+			children = (
+				14EC15FF1B5E6C5B0046213B /* AnlagenCell.swift */,
+				14EC15FD1B5E6C500046213B /* VQuarterCell.swift */,
+				14A8A6DF1B679676003BA900 /* WorkerMachineCell.swift */,
+				14DF560B1B9DFED9002E782C /* SprayProductCell.swift */,
+				14EB1BB81BD8B564000DA35F /* HarvestCell.swift */,
+				14E4C76E1C0447790018D024 /* SoilFertCell.swift */,
+				14E09ECE1C1C6FCF00AF8043 /* PurchaseHeaderCell.swift */,
+				14E09ED01C1C6FFC00AF8043 /* PurchaseProductCell.swift */,
+				14EBC0781C3CFB1800BBD330 /* WorkCell.swift */,
+				14F3C3BA1C482483008798EB /* SearchCell.swift */,
+				14690DD71C4A2ABD0084E042 /* ResultTitleCell.swift */,
+				CED2E03D1DEF23E700E46E06 /* BlossomLandCell.swift */,
+				CED2E0461DEF240800E46E06 /* BlossomVquarterCell.swift */,
+				14EC15FB1B5E6C3E0046213B /* vwAnlagenCell.xib */,
+				14E09ED21C1C705A00AF8043 /* purchaseHeaderCell.xib */,
+				148BBDA11C1D671700A1D4E3 /* purchaseProduct.xib */,
+				14EC15F91B5E6C310046213B /* vwVarQuarterCell.xib */,
+				14A8A6D91B679298003BA900 /* workerMachineCell.xib */,
+				14DF56051B9DFC80002E782C /* sprayProductCell.xib */,
+				14E941611C3C4F2A00B3820B /* worksListCell.xib */,
+				14690DD31C4A29280084E042 /* resultTitelCell.xib */,
+				CEA47A4C1DEEB621009B6E1F /* blossomLandCell.xib */,
+				CEA47A4E1DEEB63D009B6E1F /* blossomVquarterCell.xib */,
+			);
+			name = xibfiles;
+			sourceTree = "<group>";
+		};
+		14FBFEE41B491F8000697CEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14FBFEE91B491FC200697CEF /* WorkTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		877F93A755A3C8EEFB9C42E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4303835C1BDD345C53F721 /* Pods-MoFa.debug.xcconfig */,
+				916B668EF6F255D1C35B66A0 /* Pods-MoFa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA2211BF42095B7F09866812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5787F21DE899C2001B5E20 /* RATreeView.framework */,
+				CE5787E71DE8953A001B5E20 /* Alamofire.framework */,
+				7F5C233C67EDC17C72A08E5E /* Pods_MoFa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14AE17951AE29486006EA8DA /* MoFa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE17B51AE29486006EA8DA /* Build configuration list for PBXNativeTarget "MoFa" */;
+			buildPhases = (
+				FBC94A5DB8CF5A5EFCFDEA38 /* [CP] Check Pods Manifest.lock */,
+				14AE17921AE29486006EA8DA /* Sources */,
+				14AE17931AE29486006EA8DA /* Frameworks */,
+				14AE17941AE29486006EA8DA /* Resources */,
+				CE7DD2991CBF991C0093E180 /* Embed Frameworks */,
+				01FF1CE24F45A128B3E24A3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoFa;
+			productName = MoFa;
+			productReference = 14AE17961AE29486006EA8DA /* MoFa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14AE178E1AE29486006EA8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Arnold Schmid";
+				TargetAttributes = {
+					14AE17951AE29486006EA8DA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = Y9447DZFA7;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 14AE17911AE29486006EA8DA /* Build configuration list for PBXProject "MoFa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 14AE178D1AE29486006EA8DA;
+			productRefGroup = 14AE17971AE29486006EA8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14AE17951AE29486006EA8DA /* MoFa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14AE17941AE29486006EA8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC028E31E10659F00AED12B /* mofadbios.sqlite3 in Resources */,
+				14EC15FA1B5E6C310046213B /* vwVarQuarterCell.xib in Resources */,
+				CEA47A4F1DEEB63D009B6E1F /* blossomVquarterCell.xib in Resources */,
+				148BBDA21C1D671700A1D4E3 /* purchaseProduct.xib in Resources */,
+				14A8A6DA1B679298003BA900 /* workerMachineCell.xib in Resources */,
+				14E941621C3C4F2A00B3820B /* worksListCell.xib in Resources */,
+				14AE17A61AE29486006EA8DA /* LaunchScreen.xib in Resources */,
+				14AE17A31AE29486006EA8DA /* Images.xcassets in Resources */,
+				CEA47A4D1DEEB621009B6E1F /* blossomLandCell.xib in Resources */,
+				14E09ED31C1C705A00AF8043 /* purchaseHeaderCell.xib in Resources */,
+				14DF56061B9DFC80002E782C /* sprayProductCell.xib in Resources */,
+				14690DD41C4A29280084E042 /* resultTitelCell.xib in Resources */,
+				14030A0C1B78BE9400F79579 /* Storyboard.storyboard in Resources */,
+				14EC15FC1B5E6C3E0046213B /* vwAnlagenCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FF1CE24F45A128B3E24A3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoFa/Pods-MoFa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RATreeView/RATreeView.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RATreeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoFa/Pods-MoFa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC94A5DB8CF5A5EFCFDEA38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoFa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14AE17921AE29486006EA8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ED4EB71BA6C48300B7BADB /* GenerateFile.swift in Sources */,
+				14EB23AA1B9C185400AE2088 /* InputDoseAmountViewController.swift in Sources */,
+				144F7E271AEFD3F6005A7EE9 /* DBFileSystem.swift in Sources */,
+				14F517861BFF773900EEE24C /* SoilFertilizerListViewController.swift in Sources */,
+				14EBC0791C3CFB1800BBD330 /* WorkCell.swift in Sources */,
+				14EC97EC1C53E03200B6A61F /* MoFaInfoViewController.swift in Sources */,
+				14690DD81C4A2ABD0084E042 /* ResultTitleCell.swift in Sources */,
+				147238F11B78B2AD00B9D603 /* SprayingViewController.swift in Sources */,
+				14EC16061B5EB3CD0046213B /* VQuarterDataHelper.swift in Sources */,
+				14E699951C2694AC00374558 /* InputPurchaseAmountViewController.swift in Sources */,
+				14E6883D1B90ABD4001B6EFD /* PesticideFertilizerController.swift in Sources */,
+				141CB1861B3937820076E2A1 /* WorkingJournalViewController.swift in Sources */,
+				CEBAF4F81D5A200C0085EB75 /* GlobalDataHelper.swift in Sources */,
+				CEFB572A1D58DF140060EA17 /* DatabaseExtension.swift in Sources */,
+				148BBDAF1C1D6B7800A1D4E3 /* PurchaseDataHelper.swift in Sources */,
+				CEBB713E2028D3FE00AB57F6 /* PestReasons.swift in Sources */,
+				CE4DFB0E201F279F001A7B7C /* MyPickerView.swift in Sources */,
+				143CB8081B0CD60C00643A79 /* Worker.swift in Sources */,
+				CE6072831D59D46000C927DC /* GlobalData.swift in Sources */,
+				143C48CA1AEE7DBA00C6D2FC /* DropboxSyncService.swift in Sources */,
+				14E4F8E41B7CC3BE00677E55 /* Spraying.swift in Sources */,
+				14E546851C2316570053C0AC /* Global.swift in Sources */,
+				14E09ECF1C1C6FCF00AF8043 /* PurchaseHeaderCell.swift in Sources */,
+				CED2E0471DEF240800E46E06 /* BlossomVquarterCell.swift in Sources */,
+				14E546901C233CB90053C0AC /* PurchaseFertilizer.swift in Sources */,
+				14EBD6B71B496239002C0AF6 /* WorkDataHelper.swift in Sources */,
+				14ED3C221BEE503C0086E961 /* CategoryDataHelper.swift in Sources */,
+				14986D741C005933009D1F9A /* InputSoilFertilizerAmountViewController.swift in Sources */,
+				14AE17DB1AE2983F006EA8DA /* Task.swift in Sources */,
+				143B74921B1AF031008093C8 /* Pesticide.swift in Sources */,
+				CE3E4B671E0C5BC00088F248 /* VegDataInputViewController.swift in Sources */,
+				14F29A111B70B84300CEF466 /* WorkMachineDataHelper.swift in Sources */,
+				14E4C76F1C0447790018D024 /* SoilFertCell.swift in Sources */,
+				14EB1BB91BD8B564000DA35F /* HarvestCell.swift in Sources */,
+				1479FDBB1B04C04400F52364 /* Protocols.swift in Sources */,
+				14E09EC61C1C653500AF8043 /* PurchaseViewController.swift in Sources */,
+				14EC16041B5E6D970046213B /* LandDataHelper.swift in Sources */,
+				14EBD6B11B49622C002C0AF6 /* TaskDataHelper.swift in Sources */,
+				14E57FB81BD796E400022840 /* Harvest.swift in Sources */,
+				14F920431C455BD300D92EF1 /* SearchViewController.swift in Sources */,
+				14ED1C391B6905A80003025E /* WorkWorker.swift in Sources */,
+				148BBDAD1C1D6A4800A1D4E3 /* PurchasePestDataHelper.swift in Sources */,
+				14F517841BFF6BF200EEE24C /* WorkFertilizerDataHelper.swift in Sources */,
+				14EB209F1B579D9F00AB7277 /* WorkEditViewController.swift in Sources */,
+				14F0E1F91C36CBD200D5432D /* ImportDataViewController.swift in Sources */,
+				143A5FF51AEA655300CBEF3C /* StartViewController.swift in Sources */,
+				14690DCB1C4A26E30084E042 /* SearchResultViewController.swift in Sources */,
+				14E4F8EA1B7CC50200677E55 /* SprayingDataHelper.swift in Sources */,
+				143FA8D81AEA9D2000878240 /* SettingsTableViewController.swift in Sources */,
+				14E09ED11C1C6FFC00AF8043 /* PurchaseProductCell.swift in Sources */,
+				14A8A6E01B679676003BA900 /* WorkerMachineCell.swift in Sources */,
+				14E8DDF01B9B1B4100F78483 /* SprayPesticideHelper.swift in Sources */,
+				14EC16001B5E6C5B0046213B /* AnlagenCell.swift in Sources */,
+				14E13F6D1B7390360012795F /* PesticideDataHelper.swift in Sources */,
+				143B749C1B1AF83C008093C8 /* Land.swift in Sources */,
+				14F3C3BB1C482483008798EB /* SearchCell.swift in Sources */,
+				CE4DFB0C201F2734001A7B7C /* UIElements.swift in Sources */,
+				14EEFB0D1BF1030500AD4917 /* HarvestEditViewController.swift in Sources */,
+				14E546921C233DF20053C0AC /* PurchaseFertDataHelper.swift in Sources */,
+				14EC15FE1B5E6C500046213B /* VQuarterCell.swift in Sources */,
+				14EB2B3E1B5937B5004D848E /* WorkWorkerViewController.swift in Sources */,
+				14F517821BFF6A8E00EEE24C /* WorkFertilizer.swift in Sources */,
+				14DF35F81B61125E007D2BF8 /* WorkTabBarController.swift in Sources */,
+				14EA428A1B3D8D5F0003AA01 /* DaoSqlLite.swift in Sources */,
+				14E3A2E81B550C5C0000B5B5 /* NSDate.swift in Sources */,
+				14E607F91B71E5EA008D91F5 /* WorkMachineViewController.swift in Sources */,
+				143CB80E1B0CD61800643A79 /* Machine.swift in Sources */,
+				14E1892E1B3AD1C100516C70 /* Work.swift in Sources */,
+				14F9204C1C4563E100D92EF1 /* SwiftyAccordionCells.swift in Sources */,
+				14E57FC11BD79A6300022840 /* HarvestDataHelper.swift in Sources */,
+				14FBFEEA1B491FC200697CEF /* WorkTableViewCell.swift in Sources */,
+				148BBDAB1C1D688F00A1D4E3 /* Purchase.swift in Sources */,
+				147415541BFF319300DE1BFD /* SoilFertilizerDataHelper.swift in Sources */,
+				14A8A6E21B6799EC003BA900 /* WorkerDataHelper.swift in Sources */,
+				14E9910B1C4B7B56002642C9 /* MultQueries.swift in Sources */,
+				14F517791BFF613400EEE24C /* SoilFertilizerViewController.swift in Sources */,
+				CE75D7B81DEE0EAD00CF61C8 /* BlossomViewController.swift in Sources */,
+				14EC15F31B5E6B120046213B /* VQuarterViewController.swift in Sources */,
+				14E8DDEA1B9B1A0500F78483 /* SprayPesticide.swift in Sources */,
+				CED2E03E1DEF23E700E46E06 /* BlossomLandCell.swift in Sources */,
+				14AE17D71AE297DF006EA8DA /* Settings.swift in Sources */,
+				14DF35F01B60CE5E007D2BF8 /* WorkVQuarterDataHelper.swift in Sources */,
+				1474154B1BFF2F7B00DE1BFD /* SoilFertilizer.swift in Sources */,
+				CEA177C72017C8DF006BF7F6 /* WirkungWarteFrist.swift in Sources */,
+				14ECFEC61B850004000CEBF1 /* FertilizerDataHelper.swift in Sources */,
+				14E5A28B1BA01A0A00DAA191 /* SprayFertilizerHelper.swift in Sources */,
+				14EC16021B5E6CC00046213B /* CheckBox.swift in Sources */,
+				145A0D0D1C42F1DF00D752A9 /* ProductInfoViewController.swift in Sources */,
+				143B749A1B1AF067008093C8 /* Fertilizer.swift in Sources */,
+				14E649DB1BD578C1001DF72C /* HarvestViewController.swift in Sources */,
+				CEBAF4F11D5A0D2C0085EB75 /* WaterViewController.swift in Sources */,
+				14A8A6E41B68065A003BA900 /* WorkResourcesViewController.swift in Sources */,
+				14E9E40F1C6B85EC00779693 /* HoursWorkerViewController.swift in Sources */,
+				143B74981B1AF04A008093C8 /* Category.swift in Sources */,
+				14F29A171B70B8D400CEF466 /* WorkMachine.swift in Sources */,
+				14433FEA1AF1FFCC005028BF /* DBFile.swift in Sources */,
+				143B749E1B1AFA31008093C8 /* VQuarter.swift in Sources */,
+				14E633461BD1370B000FEA3F /* Util.swift in Sources */,
+				14ED1C311B68B9250003025E /* SliderViewController.swift in Sources */,
+				14DF560C1B9DFED9002E782C /* SprayProductCell.swift in Sources */,
+				148BBDB11C1D738C00A1D4E3 /* DatePickerDialog.swift in Sources */,
+				14E5468E1C233C990053C0AC /* PurchasePesticide.swift in Sources */,
+				14E607FF1B71E98B008D91F5 /* MachineDataHelper.swift in Sources */,
+				14AE179C1AE29486006EA8DA /* AppDelegate.swift in Sources */,
+				14ED1C371B69046B0003025E /* WorkWorkerDataHelper.swift in Sources */,
+				143A5FF71AEA7BCD00CBEF3C /* CustomButton.swift in Sources */,
+				14E024411BF3A29F00A91C0F /* CategoryViewController.swift in Sources */,
+				14E5A2851BA0171400DAA191 /* SprayFertilizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14AE17A41AE29486006EA8DA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AE17A51AE29486006EA8DA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14AE17B31AE29486006EA8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14AE17B41AE29486006EA8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14AE17B61AE29486006EA8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4303835C1BDD345C53F721 /* Pods-MoFa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MoFa/MoFa.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9447DZFA7;
+				"EMBEDDED_CONTENT_CONTAINS_SWIFT[arch=*]" = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoFa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.60;
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.schmid.MoFa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoFa/MoFa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
+			};
+			name = Debug;
+		};
+		14AE17B71AE29486006EA8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916B668EF6F255D1C35B66A0 /* Pods-MoFa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MoFa/MoFa.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9447DZFA7;
+				"EMBEDDED_CONTENT_CONTAINS_SWIFT[arch=*]" = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoFa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.60;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.schmid.MoFa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoFa/MoFa-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14AE17911AE29486006EA8DA /* Build configuration list for PBXProject "MoFa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE17B31AE29486006EA8DA /* Debug */,
+				14AE17B41AE29486006EA8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE17B51AE29486006EA8DA /* Build configuration list for PBXNativeTarget "MoFa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE17B61AE29486006EA8DA /* Debug */,
+				14AE17B71AE29486006EA8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14AE178E1AE29486006EA8DA /* Project object */;
+}

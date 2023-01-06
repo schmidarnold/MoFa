@@ -1,0 +1,35 @@
+PODS:
+  - AEXML (4.6.0)
+  - Alamofire (4.9.1)
+  - RATreeView (1.0.3)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftyDropbox (7.0.1):
+    - Alamofire (~> 4.9.1)
+
+DEPENDENCIES:
+  - AEXML
+  - Alamofire (~> 4.5)
+  - RATreeView (= 1.0.3)
+  - SQLite.swift (~> 0.12.0)
+  - SwiftyDropbox
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AEXML
+    - Alamofire
+    - RATreeView
+    - SQLite.swift
+    - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  AEXML: 2fbb73d8724797ed2cde888731e176fa4d44dd83
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  RATreeView: abb5e11bb2f955c7f58b1295d2b0eab1de7c2920
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftyDropbox: e38f83d00b189930edc645b3b955c18133c6a13d
+
+PODFILE CHECKSUM: f545bf6c0cd0e626cf7b9c970f19f7b8262ed057
+
+COCOAPODS: 1.8.4

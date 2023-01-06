@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="blossVquarterCell" rowHeight="119" id="UUg-ip-i4S" customClass="BlossomVquarterCell" customModule="MoFa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UUg-ip-i4S" id="T92-Ag-UoE">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="105.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY7-kT-VQ5">
+                        <rect key="frame" x="8" y="8" width="359" height="21"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" text="Blühbeginn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXh-1l-9k4">
+                        <rect key="frame" x="8" y="33" width="69" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rZg-ic-dfX">
+                        <rect key="frame" x="307" y="34" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="a2C-Ej-2m2"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="blossEndEditing:" destination="UUg-ip-i4S" eventType="editingDidBegin" id="VoC-tl-G8E"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="lWm-s7-WLJ">
+                        <rect key="frame" x="91" y="33" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="hIJ-PV-E84"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="blossStartEditing:" destination="UUg-ip-i4S" eventType="editingDidBegin" id="Opp-hU-sRP"/>
+                        </connections>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="Erntebeginn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkv-fl-QJA">
+                        <rect key="frame" x="8" y="69" width="74" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="248" text="Erntemenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93w-6e-nVn">
+                        <rect key="frame" x="225" y="57" width="74" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ve6-Mg-owf" userLabel="Crosp Amount Text">
+                        <rect key="frame" x="307" y="65" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="pqP-1g-gjI"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="crospAmountEditing:" destination="UUg-ip-i4S" eventType="editingDidBegin" id="uj0-c7-uId"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="68p-du-kYw" userLabel="Harvest Start Text">
+                        <rect key="frame" x="91" y="64" width="60" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="68a-Zr-pu9"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="harvestStartEditing:" destination="UUg-ip-i4S" eventType="editingDidBegin" id="1yh-Ku-beX"/>
+                        </connections>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" text="Blühende" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfh-wv-bfs">
+                        <rect key="frame" x="242" y="37" width="57" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="68p-du-kYw" secondAttribute="bottom" constant="12.5" id="202-Ns-YSB"/>
+                    <constraint firstItem="ve6-Mg-owf" firstAttribute="leading" secondItem="93w-6e-nVn" secondAttribute="trailing" constant="8" id="7Yf-0T-SUa"/>
+                    <constraint firstItem="lWm-s7-WLJ" firstAttribute="leading" secondItem="XXh-1l-9k4" secondAttribute="trailing" constant="13.5" id="A6W-ad-sAg"/>
+                    <constraint firstItem="rZg-ic-dfX" firstAttribute="leading" secondItem="rfh-wv-bfs" secondAttribute="trailing" constant="8" id="CGJ-Yu-gar"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="XXh-1l-9k4" secondAttribute="leading" id="CVS-S5-p60"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rZg-ic-dfX" secondAttribute="trailing" id="Dne-3Y-4HO"/>
+                    <constraint firstItem="93w-6e-nVn" firstAttribute="top" secondItem="rfh-wv-bfs" secondAttribute="bottom" constant="4" id="NC0-qd-Q6L"/>
+                    <constraint firstItem="68p-du-kYw" firstAttribute="leading" secondItem="gkv-fl-QJA" secondAttribute="trailing" constant="8.5" id="NVe-XP-pyW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ve6-Mg-owf" secondAttribute="bottom" constant="12.5" id="QzV-dr-pb1"/>
+                    <constraint firstItem="68p-du-kYw" firstAttribute="top" secondItem="lWm-s7-WLJ" secondAttribute="bottom" constant="11" id="T5l-Wu-Svf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gkv-fl-QJA" secondAttribute="bottom" constant="12.5" id="UbB-zi-lhh"/>
+                    <constraint firstItem="lWm-s7-WLJ" firstAttribute="top" secondItem="PY7-kT-VQ5" secondAttribute="bottom" constant="4" id="Wsc-fn-XgA"/>
+                    <constraint firstItem="XXh-1l-9k4" firstAttribute="top" secondItem="PY7-kT-VQ5" secondAttribute="bottom" constant="4" id="aCE-Xr-X1J"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PY7-kT-VQ5" secondAttribute="trailing" id="dZT-hT-hkW"/>
+                    <constraint firstItem="gkv-fl-QJA" firstAttribute="top" secondItem="XXh-1l-9k4" secondAttribute="bottom" constant="8" id="dko-hh-1dZ"/>
+                    <constraint firstItem="rZg-ic-dfX" firstAttribute="top" secondItem="PY7-kT-VQ5" secondAttribute="bottom" constant="5" id="eHv-Nh-5Cy"/>
+                    <constraint firstItem="93w-6e-nVn" firstAttribute="top" secondItem="rfh-wv-bfs" secondAttribute="bottom" constant="4" id="ffa-xi-47O"/>
+                    <constraint firstItem="rfh-wv-bfs" firstAttribute="top" secondItem="PY7-kT-VQ5" secondAttribute="bottom" constant="8" id="oMA-ph-yK7"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="PY7-kT-VQ5" secondAttribute="leading" id="q4n-kN-ixL"/>
+                    <constraint firstAttribute="topMargin" secondItem="PY7-kT-VQ5" secondAttribute="top" id="r5e-sK-jlU"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="93w-6e-nVn" secondAttribute="bottom" constant="6.5" id="tnh-eg-cec"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="gkv-fl-QJA" secondAttribute="leading" id="zhT-5W-P4e"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ve6-Mg-owf" secondAttribute="trailing" id="zzm-VF-rfI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="blossomEndText" destination="rZg-ic-dfX" id="T4w-m6-1HE"/>
+                <outlet property="blossomStartText" destination="lWm-s7-WLJ" id="h8o-4n-49p"/>
+                <outlet property="crospAmountText" destination="ve6-Mg-owf" id="xyT-FE-W9h"/>
+                <outlet property="harvestStartText" destination="68p-du-kYw" id="0KJ-lw-yaf"/>
+                <outlet property="vquarterLabel" destination="PY7-kT-VQ5" id="7TI-4m-dBG"/>
+            </connections>
+            <point key="canvasLocation" x="-165" y="-1"/>
+        </tableViewCell>
+    </objects>
+</document>

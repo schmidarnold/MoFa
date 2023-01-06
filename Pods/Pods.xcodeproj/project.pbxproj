@@ -1,0 +1,1834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02066C4F3FFA658CE0C22CDFBC2E07DE /* StoneSerializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115D605685D99F519B364DF15C271E7 /* StoneSerializers.swift */; };
+		025E4745ADDE01C5C957867B90E773B9 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22391A93F439BE4BB02CE00B501A0727 /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3920FE6EB5872FFB9C4EFA1AF777 /* FTS4.swift */; };
+		046076FFBEBCDE7EF46E3D77D6BD5DF2 /* RATreeNodeCollectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 115E61DB4D4CB37D5535043C5E927027 /* RATreeNodeCollectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04CFC85E147A1204CE69DD54B3A13FC2 /* FileProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA039E62E2C2467944FE0F2B82A00E /* FileProperties.swift */; };
+		0608DB0E4FA499C235A5FDB6F67E512A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D808BA2114FB29EEF3401E8646C291 /* Element.swift */; };
+		0B20C4C471408ED80C340E1F0E7B50C2 /* TeamLogRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8655595A5315986AC331BC1487F656 /* TeamLogRoutes.swift */; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450F2A5CC87609C2887402170EB0865 /* ParameterEncoding.swift */; };
+		0CA649B990C2E38DD3D5889A41086822 /* PaperRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC216CCC127712D3E867858286D9FBFC /* PaperRoutes.swift */; };
+		0E81637F80CF34C27D3414B79E2D205B /* SwiftyDropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = B086BF2B93D56F33E373214B728FBB10 /* SwiftyDropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB86828D0ED02E249617CA9F3E27FB4 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A50884D6005B0A5A6BF15754FCE3B /* Files.swift */; };
+		0FE561EC31EE2223EF5BCE9577CAE3B5 /* SwiftyDropbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83302BD9A89A9B37B39E97072296A68A /* SwiftyDropbox-dummy.m */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F927987382C02854DD1431600C46 /* Notifications.swift */; };
+		134C0EA4EAF6BEE6F148AF13C9B8D6EF /* AccessTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AC11D8E1EE79C57D22F23F23904B4 /* AccessTokenProvider.swift */; };
+		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7779364CC35ACD981DF16C2CDA6A4B /* Expression.swift */; };
+		16A57216C169B312F9922A8923D57D40 /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AEF6874282EA0263CA136453F102D7 /* OAuth.swift */; };
+		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB4D348DDF910694852D58907A9D5F /* Connection.swift */; };
+		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 318D2384D7B2D9EA5FBA8B7225055B19 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F865A6F2BDF973173313EAB1363576 /* Coding.swift */; };
+		1907BE52632BC4790EAD0B3FED92D883 /* FileRequestsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98267B7DFB903DDDDDA42CE729C182C6 /* FileRequestsRoutes.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EA15A06101CE02B2F037F8683A19E /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759395174967628FC84156DFC1735FAF /* MultipartFormData.swift */; };
+		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479B21922396787DC0F96BDA0AF6075 /* CoreFunctions.swift */; };
+		1C2938141DAE6A2DFA0C6985F0D45ECB /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699614952894C9DF7D9724BB420C27A8 /* RATreeView+TableViewDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1DA09BCDB8092BD623E3C0333C060FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		1FE1F195BC04C5CBEE00AE67EF6AAD10 /* TeamPolicies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BDD797D580798DCE1962DEE9B54B2A /* TeamPolicies.swift */; };
+		268E5C507456A6E3DF4B46D435F97EF7 /* RATreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C17AF0274BB855D8C985DE32380973C5 /* RATreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BD26BD1770977396B9365B7FD0F34D /* RATreeNodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C15FCD82140ECD277B882AFD636AC6 /* RATreeNodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		285A0E67F1EDD301A9D2401D66D3298F /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B1259C3765D336551C3F4365B5260C /* RATreeView+Private.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A4054FCEF7EDFF085DAD13D5DC0AB7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB64048F0425B8CBD6E65645EAF8BB66 /* SystemConfiguration.framework */; };
+		2A94C7CD51E8526A3F5F6DE6E40663BD /* StoneValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4A09C034CA7B11305718781989B8 /* StoneValidators.swift */; };
+		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C04B0854F0EBA0254B5FE7BF8AA27C /* Blob.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AC5F07ECE3F08D6C04B01512510C45 /* SessionDelegate.swift */; };
+		2FF255ABB5EC32DBEF7D376E8A0E459E /* RATreeView+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B731315D9792BD5A5055EE570769B8 /* RATreeView+Enums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C7EA297E72FE630DA8D6338CA80B7C /* Statement.swift */; };
+		32173AA57C68EC8CD1847C1BD9936041 /* RATreeNodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67743E6A6A3221DCD12E919716CCDB51 /* RATreeNodeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5E600A245FF7B319A107A12D39306 /* Foundation.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8919E3524571B85B50553B54DD36C /* NetworkReachabilityManager.swift */; };
+		36B0A1C97D6D1499856F05AA235B5A05 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7D2827E44F94C989F1976593FA023 /* Async.swift */; };
+		3837B4382D9A654006ED12B6C2FAA63C /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A68833C372B663FBB78008EAED3A64 /* Check.swift */; };
+		38DB166FA0CF9511BD71C5D124512893 /* BaseTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7309DE7FA898EEE08498FD6AC72EAED /* BaseTeam.swift */; };
+		396AC6A1175B462633AD76C770138203 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA198EF731C88BBDFB918837998B1C /* Auth.swift */; };
+		3DBA1F1BE12162B587AA91031F1193FC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D2936CC11AAF938BE4101EC2C2160 /* Alamofire.framework */; };
+		412EB6A87614F83592EC001F7694D098 /* TeamCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105CD8995CB3C8EBD6B47C67951C24F /* TeamCommon.swift */; };
+		415CAB5AE7BEEC0076B69C105EC82C33 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7690B555B0CB290413423BF1CD5AE /* Options.swift */; };
+		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703F16D29633483897AF585FCA1B85B /* Query.swift */; };
+		46E7586E913D2F626AB2D4909FCA0C5A /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC291AB286241F2DE805ECC5FEECB2 /* RATreeView+TableViewDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		480B09325B9FE1AC829FB2A48DE8C7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		48A7CC55212A2175C586A71A21E1C99E /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D90D019DDD994606E4DEC49F2700959F /* RATreeNodeItem+Private.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49FBAD876AE6A26B4FB2D937B370E748 /* TransportConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF02A3930F0668D878993C6D1E416D /* TransportConfig.swift */; };
+		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3008FB5ABF1ACAAFA83B59CE02B7E0 /* SQLiteObjc.m */; };
+		4A8CF8318EB41CD89936B53AD3CD988A /* DropboxClientsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62072B86633D84C90F48170CC8644257 /* DropboxClientsManager.swift */; };
+		4E2ABEBEA09FA7EC198BF454A34666C5 /* RATreeView+TableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF744156E24D4290EDD39252B17D17E8 /* RATreeView+TableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DECA40EBC949D918E2E1C999D46F4B /* RTree.swift */; };
+		4F2C77A81D5DB4CD4B73277E1F299D7D /* FilesRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A031BB42C7B0F94C2A3B83C69F16A72 /* FilesRoutes.swift */; };
+		50B805102D69CE29D28DF3D241A1FE6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		52BDE56B5D5F6187D5FBE76582C4CA6B /* UsersRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A7CC80714F2D4595301690677CCB6 /* UsersRoutes.swift */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6EC3FDC822C7920D665824870A44E /* Validation.swift */; };
+		5654407BF767B25416D925EAEDA3DDB8 /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49654C73398A30141D0F32DE6C0783 /* RABatchChanges.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57342085163EB8167BDDCB7452C6558C /* SharingRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3AC1C26DFCFB97A87E934C8AFBF1F /* SharingRoutes.swift */; };
+		57EB808E634237B2F4686512FBA84E18 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61C8FAAF635AAF5408A205FF1D23BC /* AEXML-dummy.m */; };
+		588699F886DCA749B8FF75300F2E2F67 /* RATreeView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA42F5013DDD0660633F47D96E240E /* RATreeView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		599B6D9C5B2C98415B560920D66DAEC3 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD131E54DB09210E77FE176B2B68ECD /* RATreeNodeController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A1096ABAA32DA1F3440184BFEFD0BB /* Operators.swift */; };
+		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078617B6D94C33CF93AC437EBA5BEB98 /* Value.swift */; };
+		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31EDB5FCEA1803332FC7A5450B9824F /* Errors.swift */; };
+		5EF858DA23A3FBF9FE3457223C8AB5D4 /* RATreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8968CB31D8497EDBB04A08BF5EF71F /* RATreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EAAC209DD2DA068F08931F08821C1A /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		609E4F59252A6A42DDD7EEA1F05845F7 /* TeamRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA8494BF70B180D4DA6B4DF867FFC9 /* TeamRoutes.swift */; };
+		60F2EDA8CEF84EC9FA62B0B4EFD2207B /* FileRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6057D856CC560B395B1504443C1A4D /* FileRequests.swift */; };
+		63943639539EBEDAC8466C22E5394785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D15DBC39174C308864D7C113205FCD /* Result.swift */; };
+		675D0935B15D225FCA314135F8501460 /* RATreeNodeItem+ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 148352A55B7474D382177F8E05E2D80C /* RATreeNodeItem+ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9248D02024DD4E175A78FA4B2C1A1 /* SQLite.swift-dummy.m */; };
+		691AC1D9DAA8213463161A0E20919DEB /* RATreeView+TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9750B1CAF6D4A66495A71EF000EBD0 /* RATreeView+TableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A9EB4A6886B00300AE36DB754A36E96 /* DropboxTransportClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485CD4ABA6F652D7764BEED19F85B9B /* DropboxTransportClient.swift */; };
+		6C0E1C3D9FA1C2D635308DBD52949FBF /* RATreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F88F36C46E4566FAA6FF023A10AEAD6 /* RATreeView-dummy.m */; };
+		6D9F455655AA4162A94E4FA3337ED429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB55DD15E77CA76826F1A052723099CA /* UIKit.framework */; };
+		6DA519522CBFFBF923125B31F63B4399 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105570791C5098ABB40AA7DC71539D8B /* RATreeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E5EE4552AFB2C8F9E25C38CA2339A11 /* OAuthConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8AF7BDB37B46B3F878D855039809E3 /* OAuthConstants.swift */; };
+		71F5F20ED04F7C7998F501A8A1595239 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F65E0A36B87A27533A48AF040634AA /* Error.swift */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		78DE19B0A57149E1F1E23301BF05A44B /* SecondaryEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F284A95486330558B5218AD3FC335 /* SecondaryEmails.swift */; };
+		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5229293B04CB416B49B5C4DB6856F /* Helpers.swift */; };
+		7FC99E0C02128E7FDDC4F65675F064A8 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663800535CEDF70DFC67373A6DC8E5 /* Base.swift */; };
+		80FCBE059F8ECD4ED19E8F87736B8151 /* OAuthUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263140BB449BA6FC0217E7607D1EFE0A /* OAuthUtils.swift */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD8F09CE263D199928E0E67D710A73 /* AFError.swift */; };
+		849B84574C464ADCD57504F527F03012 /* Pods-MoFa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B84ECF69305384B8AA01917A1124C95B /* Pods-MoFa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865DF9B34E8B14F3E3BA17840C6137F1 /* StoneBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEB1C52B7D46DAB7AD35FBE7145A8C /* StoneBase.swift */; };
+		87101CA91AC054ABFD70ADB0688CE1AA /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAC809E2955A6C10DA733FBBE4717A /* Team.swift */; };
+		8AE5EAF48DF391075A16C63FCD12165B /* RATreeView_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B446D7CA36AA897B36548BC7D95EC5E /* RATreeView_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FA371621C013CA86DF9E5BBF36E08D5 /* SeenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED40FB433A0E688EEBF04CF9EAF76B /* SeenState.swift */; };
+		91E308F07E66BD89B8AED5642AB5C3A2 /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2C64571C498097E648E1A51624B00 /* RATreeNodeItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B1A348A016AC6B7EC724FFA31F795 /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912403FC4E25DB44E17F655FBA76A32D /* Timeline.swift */; };
+		934E77BCA2DAE39AC8C00D98BD2ED2FE /* AccountRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58730085D52015783C16188A41D860 /* AccountRoutes.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A49D6BAD373FE0E75EE3A6A6EA8C88 /* Request.swift */; };
+		9A4DA66E4BDDB4DA62B17F2E847A6FDD /* FilePropertiesRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD12F76E73F772BC405535F313881A /* FilePropertiesRoutes.swift */; };
+		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5E84B3B17227D854E78568A7D61 /* AggregateFunctions.swift */; };
+		9C94287A2994F5775220A9DD2BFB40CF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A2F480394A496A77603E9FFF531D04 /* WebKit.framework */; };
+		A28901F4EA3289BAEFED54058AF06A3C /* Request+TokenRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C31D8B6CF3CB5D89F3F1DE8C6AA199 /* Request+TokenRefresh.swift */; };
+		A2FAAFBFA98C936E122E8A5A610874D3 /* ChunkInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E1E79E43CE64CB8AC4F4A90E9225D /* ChunkInputStream.swift */; };
+		A37BFE8EA549C2EFEE244E372F941AA1 /* RABatchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D6382E54CB413658FDF424F6147039 /* RABatchChanges.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C15C01E8D81992B107BC2354CE79A78 /* FTS5.swift */; };
+		A58DB8F40CFFFFACFC4D98982C9C19E7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462B6DB666DD4EB0662EADF71AE46887 /* Common.swift */; };
+		A5FE5B54EAF0A0965D0AAF4D473D3912 /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4EA9BD18A7DBAD15151ED5ED077F9F /* RATreeNodeCollectionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A95E9D904513CE66E6ACB24B6CFB5223 /* CustomRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE1A3E33CC1504BB6F192BBD9901A1 /* CustomRoutes.swift */; };
+		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75287FB3038B898C4F398D9A7E93BB2 /* DateAndTimeFunctions.swift */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D9F8F1444593B3AE233ED6BAD8EEA /* TaskDelegate.swift */; };
+		B0414C109359B86DE33629B76B10BE0E /* SwiftyDropbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80654662A5F775E0058091EAB780FB51 /* SwiftyDropbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B168ADC8BDAFCFA827709D1A727E21DA /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF75310CFD89A9A2BDE6AD555E7B94 /* RATreeView+Enums.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D16ED544C2EE3A845A76ACB2BB10EEB /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45367848B7BC1CF991E7438A0AD2821 /* RATreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F47220CB981472BD83C0DB8654BA697F /* RATreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4E4C394EE0D00D186162EA26E62A948 /* RATreeNodeItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB48CAF43BE89630BABF67C2838BF19 /* RATreeNodeItem+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA101B1B47BFF5AE1E99214767102F6E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95A41F773406A127CD8E737CA5E9FE /* Parser.swift */; };
+		BA900BA1152D0C49A1123FFDC9642929 /* DropboxClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A690556D66E0CD22D5E15EE04B670BA /* DropboxClient.swift */; };
+		BC26A1ED697B1C58BB3B8926E089912F /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713598EA3F5F1B5B5A339EEEA71D9FA /* Users.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17578843536FF69B02BBB9E70B3D71 /* Alamofire.swift */; };
+		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9459ACF4BB5C09AF51EDCC16A4E81 /* CustomFunctions.swift */; };
+		C95EB5BBD3AC2388465963F5CD23364D /* OAuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF006B01A5B85216C12B5AC954C84E /* OAuthTokenRequest.swift */; };
+		CAC6BE7FA845F785EE79FBD2953D030F /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85613D908B5D8EECCDA02838D7D0688 /* Custom.swift */; };
+		CAFA720C00095EDBBC4E5ADF57E9EEBF /* RATreeView+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E5B426D9E89109D43B6A0936D00F64 /* RATreeView+UIScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBA5E406EDA54E3A6F7512F368F6B46C /* ContactsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69746C42AB701449243CE5A4F7ADCCF5 /* ContactsRoutes.swift */; };
+		CC146A2FEE2FCEAAC68B5673270E7BD0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174C15DAEEAC2880DC229FF37E2161A /* Document.swift */; };
+		D20F0592FD4F21EBA4B8D5CEE8F7CCC8 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7D1AE3F893B0EFF5EE52E71889830 /* Contacts.swift */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147926870C51D9B628171BA6B2FB367 /* DispatchQueue+Alamofire.swift */; };
+		D42874B7C54A47689BF901FFE7C05121 /* RATreeNode_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DF5D57C7A55E2D974C1396890444A2 /* RATreeNode_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847241DA09C6B2D63ECBBCF479DCF6D5 /* Response.swift */; };
+		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF98BACC854C0B2693042CAABB5399E /* Setter.swift */; };
+		DB96409161B8744FF813F1C567944EE2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B84DFC6B5E04C82EAC23659A1E2071 /* Account.swift */; };
+		DC11A87F3DE12F1260329799AC291954 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F2BFAA2EDA6A8C16E44DF14F00523 /* LoadingViewController.swift */; };
+		DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */; };
+		DE2B825F0872180DEDD00B2472F73D6B /* Pods-MoFa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB82A4E1DF6CD22848309D6EE147C62 /* Pods-MoFa-dummy.m */; };
+		E356C8031D8922A7F7179E46108AB801 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FF87D1FD8D4FB04264723C89E0883 /* Sharing.swift */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7D025BC2D5FED32151E4B78A77897 /* ResponseSerialization.swift */; };
+		E4775317CEE2D616BC4AF32CC30B90CD /* UsersCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9127C54547171BF748F8613E25353 /* UsersCommon.swift */; };
+		E5EC352EB61C5E3D77950ACEB715D400 /* CustomTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49051410C43288C3204E9E0FB75632 /* CustomTasks.swift */; };
+		E7F30DA9AFBF91B057CCA2763532060B /* RATreeView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA42CA371066EF275931DC2FBE5CD7 /* RATreeView+UIScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EABD702B4968C575193EAF6BBA9ED7F7 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD608317B5018119890FE74FA73DF0 /* RATreeNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB8AAC3C45DF180432F2F2732102AA3E /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CF0349A7257946BFBA1C3469AA056 /* Paper.swift */; };
+		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C0EC4BBDF94C39E4F720FE3A0615 /* Collation.swift */; };
+		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B14FECCB15C2DB138C9B0DB97B82E144 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF4AD7B733406CE12346E43263F38D0 /* CheckRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5926B02C078F214E94F4AB498E735 /* CheckRoutes.swift */; };
+		F06264E7CCF00CBB10059A8FF08E810A /* SDKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F328D4690A329BCBE18819F2F40905C /* SDKConstants.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A216D9BF12F1EC3B69A5DF5FDA25A /* ServerTrustPolicy.swift */; };
+		F211383225E61A04B10398E24F580187 /* TeamLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2362ACBBA7DA5159007FEEFAF406FF2 /* TeamLog.swift */; };
+		F2FCE3EA1218B28C858A29CE3B769844 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5C8D6B8897126CF41ADB516DC88D40 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F518D8FE2829CB8289E3CC8E3A239AEA /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DF72BDE738506F348944F74960A14 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F57E5FFD48BB983E41161CE24FAD4BCA /* OAuthMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF18D60A3E29FB13A613AF33A54F95 /* OAuthMobile.swift */; };
+		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A16AEFD60427A85D5C5BA1569D8C9 /* Schema.swift */; };
+		F6D5F88F0E51E468E781B6CC00D6C781 /* AuthRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0456540DA9B5552D2906CD05E3AEF63 /* AuthRoutes.swift */; };
+		F6F926EDFA52BE7D64FF08F8F3783D4F /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086CD5C2EA42CDF9A3DDDAF695C638C /* AuthSession.swift */; };
+		F71ED324BF38FE2218D15EF86732B3C7 /* DropboxTeamClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B817DB86A52BCA8C9EA23D95402160C2 /* DropboxTeamClient.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8290D22D7D9A07DB26B15FF53AD1C571 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ABB886FBDCE48AAE6B74241D787F11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		49EE599F27F7F771E29540B9C7A21202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		8CD4ACA3D40A4DF4C8B07391CEF0B28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		BF93385D0EF750C1103E6B4DDA6704C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C3B2890BA25B4203C768E55BB4D4FA;
+			remoteInfo = AEXML;
+		};
+		DC41C6C04999ED156011F27319EE25C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF39B7A1D9F00620D9F56635ABBB2C03;
+			remoteInfo = SwiftyDropbox;
+		};
+		FDA198AC1E7B0856C77E34A0BF5C2479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F0AAE2125542D37A3D74D0D3932309;
+			remoteInfo = RATreeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078617B6D94C33CF93AC437EBA5BEB98 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		0B466492790B2871568344A59A0083C2 /* Pods-MoFa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoFa-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F6057D856CC560B395B1504443C1A4D /* FileRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileRequests.swift; path = Source/SwiftyDropbox/Shared/Generated/FileRequests.swift; sourceTree = "<group>"; };
+		105570791C5098ABB40AA7DC71539D8B /* RATreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeView.m; path = RATreeView/RATreeView.m; sourceTree = "<group>"; };
+		1147926870C51D9B628171BA6B2FB367 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		115E61DB4D4CB37D5535043C5E927027 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeCollectionController.h; path = "RATreeView/Private Files/RATreeNodeCollectionController.h"; sourceTree = "<group>"; };
+		11E5B426D9E89109D43B6A0936D00F64 /* RATreeView+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+UIScrollView.h"; path = "RATreeView/Private Files/RATreeView+UIScrollView.h"; sourceTree = "<group>"; };
+		13F65E0A36B87A27533A48AF040634AA /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
+		148352A55B7474D382177F8E05E2D80C /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+ClassExtension.h"; path = "RATreeView/Private Files/RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		14D4DDD255CD45DE8844749E389FAAC8 /* Pods-MoFa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoFa.modulemap"; sourceTree = "<group>"; };
+		17AF75310CFD89A9A2BDE6AD555E7B94 /* RATreeView+Enums.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Enums.m"; path = "RATreeView/Private Files/RATreeView+Enums.m"; sourceTree = "<group>"; };
+		17C5926B02C078F214E94F4AB498E735 /* CheckRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/CheckRoutes.swift; sourceTree = "<group>"; };
+		19F6F22B35AE6110C2AEFCD3C1BD462B /* Pods-MoFa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoFa.debug.xcconfig"; sourceTree = "<group>"; };
+		1A61C8FAAF635AAF5408A205FF1D23BC /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
+		1BB48CAF43BE89630BABF67C2838BF19 /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+Private.h"; path = "RATreeView/Private Files/RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		1BD9248D02024DD4E175A78FA4B2C1A1 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		1BFF18D60A3E29FB13A613AF33A54F95 /* OAuthMobile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthMobile.swift; path = Source/SwiftyDropbox/Platform/SwiftyDropbox_iOS/OAuthMobile.swift; sourceTree = "<group>"; };
+		1CBA76EDD27FA2D20B1EA0F0BF7F082C /* SwiftyDropbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyDropbox.framework; path = SwiftyDropbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9D9F8F1444593B3AE233ED6BAD8EEA /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		1F0D47C85F4F24EC5A449D9765DD5331 /* Pods-MoFa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoFa-Info.plist"; sourceTree = "<group>"; };
+		20ED40FB433A0E688EEBF04CF9EAF76B /* SeenState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeenState.swift; path = Source/SwiftyDropbox/Shared/Generated/SeenState.swift; sourceTree = "<group>"; };
+		22391A93F439BE4BB02CE00B501A0727 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
+		246A16AEFD60427A85D5C5BA1569D8C9 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		25663800535CEDF70DFC67373A6DC8E5 /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = Source/SwiftyDropbox/Shared/Generated/Base.swift; sourceTree = "<group>"; };
+		263140BB449BA6FC0217E7607D1EFE0A /* OAuthUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthUtils.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/OAuthUtils.swift; sourceTree = "<group>"; };
+		263BD5B82716DEF184B5BAE972FC1322 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		26B84DFC6B5E04C82EAC23659A1E2071 /* Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Account.swift; path = Source/SwiftyDropbox/Shared/Generated/Account.swift; sourceTree = "<group>"; };
+		27A7D025BC2D5FED32151E4B78A77897 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		27A7D1AE3F893B0EFF5EE52E71889830 /* Contacts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = Source/SwiftyDropbox/Shared/Generated/Contacts.swift; sourceTree = "<group>"; };
+		2916EA3B44058DE7137C55113BF1957B /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
+		2C3008FB5ABF1ACAAFA83B59CE02B7E0 /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		2C6EA15A06101CE02B2F037F8683A19E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		2EAEB1C52B7D46DAB7AD35FBE7145A8C /* StoneBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoneBase.swift; path = Source/SwiftyDropbox/Shared/Generated/StoneBase.swift; sourceTree = "<group>"; };
+		2FCA42CA371066EF275931DC2FBE5CD7 /* RATreeView+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+UIScrollView.m"; path = "RATreeView/Private Files/RATreeView+UIScrollView.m"; sourceTree = "<group>"; };
+		30A49D6BAD373FE0E75EE3A6A6EA8C88 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		318D2384D7B2D9EA5FBA8B7225055B19 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		35768FF0AA8B77930C468A80F9DFBC1D /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		35D808BA2114FB29EEF3401E8646C291 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
+		36A9459ACF4BB5C09AF51EDCC16A4E81 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		3A95A41F773406A127CD8E737CA5E9FE /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
+		3E58730085D52015783C16188A41D860 /* AccountRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/AccountRoutes.swift; sourceTree = "<group>"; };
+		3F49051410C43288C3204E9E0FB75632 /* CustomTasks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTasks.swift; path = Source/SwiftyDropbox/Shared/Handwritten/CustomTasks.swift; sourceTree = "<group>"; };
+		3F88F36C46E4566FAA6FF023A10AEAD6 /* RATreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RATreeView-dummy.m"; sourceTree = "<group>"; };
+		4115D605685D99F519B364DF15C271E7 /* StoneSerializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoneSerializers.swift; path = Source/SwiftyDropbox/Shared/Generated/StoneSerializers.swift; sourceTree = "<group>"; };
+		41A68833C372B663FBB78008EAED3A64 /* Check.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Check.swift; path = Source/SwiftyDropbox/Shared/Generated/Check.swift; sourceTree = "<group>"; };
+		43AEF6874282EA0263CA136453F102D7 /* OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/OAuth.swift; sourceTree = "<group>"; };
+		44DECA40EBC949D918E2E1C999D46F4B /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		462B6DB666DD4EB0662EADF71AE46887 /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Source/SwiftyDropbox/Shared/Generated/Common.swift; sourceTree = "<group>"; };
+		4713598EA3F5F1B5B5A339EEEA71D9FA /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Source/SwiftyDropbox/Shared/Generated/Users.swift; sourceTree = "<group>"; };
+		4C8AF7BDB37B46B3F878D855039809E3 /* OAuthConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthConstants.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/OAuthConstants.swift; sourceTree = "<group>"; };
+		4F0DF72BDE738506F348944F74960A14 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; path = "RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		4FDA42F5013DDD0660633F47D96E240E /* RATreeView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Private.h"; path = "RATreeView/Private Files/RATreeView+Private.h"; sourceTree = "<group>"; };
+		50A66AB74EDEC8BB3E6911C0C8C260D2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		53A1096ABAA32DA1F3440184BFEFD0BB /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		543D1F2F8993B16F57EACA2795561D72 /* Pods-MoFa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoFa.release.xcconfig"; sourceTree = "<group>"; };
+		56799AC752FC4183B87B7175A53089AD /* RATreeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RATreeView-Info.plist"; sourceTree = "<group>"; };
+		57EC291AB286241F2DE805ECC5FEECB2 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDataSource.m"; path = "RATreeView/Private Files/RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		58EF006B01A5B85216C12B5AC954C84E /* OAuthTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthTokenRequest.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/OAuthTokenRequest.swift; sourceTree = "<group>"; };
+		5B4CCE945DA52B68861D70271B3A9267 /* RATreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RATreeView.framework; path = RATreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4EA9BD18A7DBAD15151ED5ED077F9F /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeCollectionController.m; path = "RATreeView/Private Files/RATreeNodeCollectionController.m"; sourceTree = "<group>"; };
+		5F7426B6997EF3210A48DA961B8268FF /* AEXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEXML-Info.plist"; sourceTree = "<group>"; };
+		62072B86633D84C90F48170CC8644257 /* DropboxClientsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxClientsManager.swift; path = Source/SwiftyDropbox/Shared/Handwritten/DropboxClientsManager.swift; sourceTree = "<group>"; };
+		627288356F0358F0DE5150777E3FC483 /* SwiftyDropbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyDropbox-Info.plist"; sourceTree = "<group>"; };
+		62BD12F76E73F772BC405535F313881A /* FilePropertiesRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilePropertiesRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/FilePropertiesRoutes.swift; sourceTree = "<group>"; };
+		63074B35E693CBEF3F00F948327E5A3E /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
+		64B1259C3765D336551C3F4365B5260C /* RATreeView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Private.m"; path = "RATreeView/Private Files/RATreeView+Private.m"; sourceTree = "<group>"; };
+		6518B48B3EE40F766A9092DAA548A923 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		65EAAC209DD2DA068F08931F08821C1A /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		66C31D8B6CF3CB5D89F3F1DE8C6AA199 /* Request+TokenRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+TokenRefresh.swift"; path = "Source/SwiftyDropbox/Shared/Handwritten/Request+TokenRefresh.swift"; sourceTree = "<group>"; };
+		67743E6A6A3221DCD12E919716CCDB51 /* RATreeNodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeController.h; path = "RATreeView/Private Files/RATreeNodeController.h"; sourceTree = "<group>"; };
+		68C7EA297E72FE630DA8D6338CA80B7C /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		68D15DBC39174C308864D7C113205FCD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		69746C42AB701449243CE5A4F7ADCCF5 /* ContactsRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactsRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/ContactsRoutes.swift; sourceTree = "<group>"; };
+		699614952894C9DF7D9724BB420C27A8 /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDelegate.m"; path = "RATreeView/Private Files/RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		69A8919E3524571B85B50553B54DD36C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		6AB82A4E1DF6CD22848309D6EE147C62 /* Pods-MoFa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoFa-dummy.m"; sourceTree = "<group>"; };
+		6C15C01E8D81992B107BC2354CE79A78 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		6CF98BACC854C0B2693042CAABB5399E /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		6DE7690B555B0CB290413423BF1CD5AE /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
+		6F328D4690A329BCBE18819F2F40905C /* SDKConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKConstants.swift; path = Source/SwiftyDropbox/Shared/Handwritten/SDKConstants.swift; sourceTree = "<group>"; };
+		707B1A348A016AC6B7EC724FFA31F795 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		7086CD5C2EA42CDF9A3DDDAF695C638C /* AuthSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthSession.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/AuthSession.swift; sourceTree = "<group>"; };
+		71BD8F09CE263D199928E0E67D710A73 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		72E3648503FFF9809C90430DC658591C /* SwiftyDropbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDropbox-prefix.pch"; sourceTree = "<group>"; };
+		72FA039E62E2C2467944FE0F2B82A00E /* FileProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileProperties.swift; path = Source/SwiftyDropbox/Shared/Generated/FileProperties.swift; sourceTree = "<group>"; };
+		735CF0349A7257946BFBA1C3469AA056 /* Paper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Paper.swift; path = Source/SwiftyDropbox/Shared/Generated/Paper.swift; sourceTree = "<group>"; };
+		7485CD4ABA6F652D7764BEED19F85B9B /* DropboxTransportClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxTransportClient.swift; path = Source/SwiftyDropbox/Shared/Handwritten/DropboxTransportClient.swift; sourceTree = "<group>"; };
+		759395174967628FC84156DFC1735FAF /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		7A690556D66E0CD22D5E15EE04B670BA /* DropboxClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxClient.swift; path = Source/SwiftyDropbox/Shared/Handwritten/DropboxClient.swift; sourceTree = "<group>"; };
+		7B0E1E79E43CE64CB8AC4F4A90E9225D /* ChunkInputStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChunkInputStream.swift; path = Source/SwiftyDropbox/Shared/Handwritten/ChunkInputStream.swift; sourceTree = "<group>"; };
+		7B883B1E4C67E61C7C78B4190CA814B4 /* RATreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RATreeView.modulemap; sourceTree = "<group>"; };
+		7C1A50884D6005B0A5A6BF15754FCE3B /* Files.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Files.swift; path = Source/SwiftyDropbox/Shared/Generated/Files.swift; sourceTree = "<group>"; };
+		805AC11D8E1EE79C57D22F23F23904B4 /* AccessTokenProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenProvider.swift; path = Source/SwiftyDropbox/Shared/Handwritten/OAuth/AccessTokenProvider.swift; sourceTree = "<group>"; };
+		80654662A5F775E0058091EAB780FB51 /* SwiftyDropbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDropbox-umbrella.h"; sourceTree = "<group>"; };
+		8290D22D7D9A07DB26B15FF53AD1C571 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		83302BD9A89A9B37B39E97072296A68A /* SwiftyDropbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyDropbox-dummy.m"; sourceTree = "<group>"; };
+		83F6EC3FDC822C7920D665824870A44E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		847241DA09C6B2D63ECBBCF479DCF6D5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		84C1C0EC4BBDF94C39E4F720FE3A0615 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		86DF5D57C7A55E2D974C1396890444A2 /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode_ClassExtension.h; path = "RATreeView/Private Files/RATreeNode_ClassExtension.h"; sourceTree = "<group>"; };
+		88D6382E54CB413658FDF424F6147039 /* RABatchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChanges.h; path = "RATreeView/Private Files/RABatchChanges.h"; sourceTree = "<group>"; };
+		8BD2C64571C498097E648E1A51624B00 /* RATreeNodeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeItem.m; path = "RATreeView/Private Files/RATreeNodeItem.m"; sourceTree = "<group>"; };
+		8C697E6944B5634527D5E1CB34ADCE4D /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		8DF023FCA0E38A3551FD84C551525212 /* Pods-MoFa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoFa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E49654C73398A30141D0F32DE6C0783 /* RABatchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChanges.m; path = "RATreeView/Private Files/RABatchChanges.m"; sourceTree = "<group>"; };
+		912403FC4E25DB44E17F655FBA76A32D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		932F284A95486330558B5218AD3FC335 /* SecondaryEmails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecondaryEmails.swift; path = Source/SwiftyDropbox/Shared/Generated/SecondaryEmails.swift; sourceTree = "<group>"; };
+		955A216D9BF12F1EC3B69A5DF5FDA25A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		96B731315D9792BD5A5055EE570769B8 /* RATreeView+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Enums.h"; path = "RATreeView/Private Files/RATreeView+Enums.h"; sourceTree = "<group>"; };
+		9703F16D29633483897AF585FCA1B85B /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		98267B7DFB903DDDDDA42CE729C182C6 /* FileRequestsRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileRequestsRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/FileRequestsRoutes.swift; sourceTree = "<group>"; };
+		9A031BB42C7B0F94C2A3B83C69F16A72 /* FilesRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilesRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/FilesRoutes.swift; sourceTree = "<group>"; };
+		9ADE1A3E33CC1504BB6F192BBD9901A1 /* CustomRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRoutes.swift; path = Source/SwiftyDropbox/Shared/Handwritten/CustomRoutes.swift; sourceTree = "<group>"; };
+		9B446D7CA36AA897B36548BC7D95EC5E /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView_ClassExtension.h; path = "RATreeView/Private Files/RATreeView_ClassExtension.h"; sourceTree = "<group>"; };
+		9BE5229293B04CB416B49B5C4DB6856F /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		9D16ED544C2EE3A845A76ACB2BB10EEB /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECA198EF731C88BBDFB918837998B1C /* Auth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = Source/SwiftyDropbox/Shared/Generated/Auth.swift; sourceTree = "<group>"; };
+		A105CD8995CB3C8EBD6B47C67951C24F /* TeamCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamCommon.swift; path = Source/SwiftyDropbox/Shared/Generated/TeamCommon.swift; sourceTree = "<group>"; };
+		A1F865A6F2BDF973173313EAB1363576 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		A344ED795813E2D3271C87C572554653 /* SwiftyDropbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyDropbox.xcconfig; sourceTree = "<group>"; };
+		A6C15FCD82140ECD277B882AFD636AC6 /* RATreeNodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeItem.h; path = "RATreeView/Private Files/RATreeNodeItem.h"; sourceTree = "<group>"; };
+		A98F2BFAA2EDA6A8C16E44DF14F00523 /* LoadingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = Source/SwiftyDropbox/Platform/SwiftyDropbox_iOS/LoadingViewController.swift; sourceTree = "<group>"; };
+		A9BDD797D580798DCE1962DEE9B54B2A /* TeamPolicies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamPolicies.swift; path = Source/SwiftyDropbox/Shared/Generated/TeamPolicies.swift; sourceTree = "<group>"; };
+		ADD131E54DB09210E77FE176B2B68ECD /* RATreeNodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeController.m; path = "RATreeView/Private Files/RATreeNodeController.m"; sourceTree = "<group>"; };
+		AF0092D565F497A7BF1599B382E3EB70 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		B086BF2B93D56F33E373214B728FBB10 /* SwiftyDropbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyDropbox.h; path = Source/SwiftyDropbox/Shared/Handwritten/SwiftyDropbox.h; sourceTree = "<group>"; };
+		B14FECCB15C2DB138C9B0DB97B82E144 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		B174C15DAEEAC2880DC229FF37E2161A /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
+		B67A7CC80714F2D4595301690677CCB6 /* UsersRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsersRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/UsersRoutes.swift; sourceTree = "<group>"; };
+		B7309DE7FA898EEE08498FD6AC72EAED /* BaseTeam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTeam.swift; path = Source/SwiftyDropbox/Shared/Generated/BaseTeam.swift; sourceTree = "<group>"; };
+		B75287FB3038B898C4F398D9A7E93BB2 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B817DB86A52BCA8C9EA23D95402160C2 /* DropboxTeamClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropboxTeamClient.swift; path = Source/SwiftyDropbox/Shared/Handwritten/DropboxTeamClient.swift; sourceTree = "<group>"; };
+		B84ECF69305384B8AA01917A1124C95B /* Pods-MoFa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoFa-umbrella.h"; sourceTree = "<group>"; };
+		B9AAC809E2955A6C10DA733FBBE4717A /* Team.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Source/SwiftyDropbox/Shared/Generated/Team.swift; sourceTree = "<group>"; };
+		B9C76C6804D07651679118C858C4418D /* Pods-MoFa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoFa-frameworks.sh"; sourceTree = "<group>"; };
+		BB64048F0425B8CBD6E65645EAF8BB66 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BCA5E600A245FF7B319A107A12D39306 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		BE8968CB31D8497EDBB04A08BF5EF71F /* RATreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-umbrella.h"; sourceTree = "<group>"; };
+		C0456540DA9B5552D2906CD05E3AEF63 /* AuthRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/AuthRoutes.swift; sourceTree = "<group>"; };
+		C17AF0274BB855D8C985DE32380973C5 /* RATreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView.h; path = RATreeView/RATreeView.h; sourceTree = "<group>"; };
+		C1C04B0854F0EBA0254B5FE7BF8AA27C /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		C3899843E3A3AA86CBA5398D49BB53F0 /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
+		C479B21922396787DC0F96BDA0AF6075 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		C85613D908B5D8EECCDA02838D7D0688 /* Custom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Custom.swift; path = Source/SwiftyDropbox/Shared/Handwritten/Custom.swift; sourceTree = "<group>"; };
+		C8AC5F07ECE3F08D6C04B01512510C45 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		CA0D3920FE6EB5872FFB9C4EFA1AF777 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		CA5C8D6B8897126CF41ADB516DC88D40 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; path = "RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
+		CA9750B1CAF6D4A66495A71EF000EBD0 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDataSource.h"; path = "RATreeView/Private Files/RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		CB1FF87D1FD8D4FB04264723C89E0883 /* Sharing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sharing.swift; path = Source/SwiftyDropbox/Shared/Generated/Sharing.swift; sourceTree = "<group>"; };
+		CC216CCC127712D3E867858286D9FBFC /* PaperRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/PaperRoutes.swift; sourceTree = "<group>"; };
+		CC8655595A5315986AC331BC1487F656 /* TeamLogRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamLogRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/TeamLogRoutes.swift; sourceTree = "<group>"; };
+		CDF9127C54547171BF748F8613E25353 /* UsersCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsersCommon.swift; path = Source/SwiftyDropbox/Shared/Generated/UsersCommon.swift; sourceTree = "<group>"; };
+		D0A4F927987382C02854DD1431600C46 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D450F2A5CC87609C2887402170EB0865 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D759D1D7A0CC4AAB32F15DECC48DF236 /* RATreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-prefix.pch"; sourceTree = "<group>"; };
+		D90D019DDD994606E4DEC49F2700959F /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeNodeItem+Private.m"; path = "RATreeView/Private Files/RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		DB7779364CC35ACD981DF16C2CDA6A4B /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		DC7F4A09C034CA7B11305718781989B8 /* StoneValidators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoneValidators.swift; path = Source/SwiftyDropbox/Shared/Generated/StoneValidators.swift; sourceTree = "<group>"; };
+		DF744156E24D4290EDD39252B17D17E8 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDelegate.h"; path = "RATreeView/Private Files/RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
+		DF8F9F6F5793E647A502FB62F91F3CF6 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		DFEA94D94F1C60718B51AD40FA29E32F /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		E14D2936CC11AAF938BE4101EC2C2160 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BF02A3930F0668D878993C6D1E416D /* TransportConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransportConfig.swift; path = Source/SwiftyDropbox/Shared/Handwritten/TransportConfig.swift; sourceTree = "<group>"; };
+		E2362ACBBA7DA5159007FEEFAF406FF2 /* TeamLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamLog.swift; path = Source/SwiftyDropbox/Shared/Generated/TeamLog.swift; sourceTree = "<group>"; };
+		E660A6195381C7AFB0FFC9A767666D1B /* RATreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RATreeView.xcconfig; sourceTree = "<group>"; };
+		E6A2F480394A496A77603E9FFF531D04 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6A3E7FDEC97670A56B80909760A22BC /* SwiftyDropbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyDropbox.modulemap; sourceTree = "<group>"; };
+		EE17578843536FF69B02BBB9E70B3D71 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		F0DA8494BF70B180D4DA6B4DF867FFC9 /* TeamRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/TeamRoutes.swift; sourceTree = "<group>"; };
+		F1E3AC1C26DFCFB97A87E934C8AFBF1F /* SharingRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharingRoutes.swift; path = Source/SwiftyDropbox/Shared/Generated/SharingRoutes.swift; sourceTree = "<group>"; };
+		F31EDB5FCEA1803332FC7A5450B9824F /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		F47220CB981472BD83C0DB8654BA697F /* RATreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode.h; path = "RATreeView/Private Files/RATreeNode.h"; sourceTree = "<group>"; };
+		F4DB4D348DDF910694852D58907A9D5F /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		F5D7F5E84B3B17227D854E78568A7D61 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E7D2827E44F94C989F1976593FA023 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Source/SwiftyDropbox/Shared/Generated/Async.swift; sourceTree = "<group>"; };
+		FACD608317B5018119890FE74FA73DF0 /* RATreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNode.m; path = "RATreeView/Private Files/RATreeNode.m"; sourceTree = "<group>"; };
+		FB55DD15E77CA76826F1A052723099CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD640232CB6FE745BCCBE7878E6705CC /* Pods_MoFa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoFa.framework; path = "Pods-MoFa.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F369197A6F3F879ADA95A74196C3AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA09BCDB8092BD623E3C0333C060FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B532E9C51737AA9C80C4DF57D75E78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B805102D69CE29D28DF3D241A1FE6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44A17C7665842E6AE218DC4B0572A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA682032B7E56B95263D0F7F6C0F636A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63943639539EBEDAC8466C22E5394785 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0A31C27404F2B8211B2A9D4DFE50C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBA1F1BE12162B587AA91031F1193FC /* Alamofire.framework in Frameworks */,
+				480B09325B9FE1AC829FB2A48DE8C7A0 /* Foundation.framework in Frameworks */,
+				2A4054FCEF7EDFF085DAD13D5DC0AB7F /* SystemConfiguration.framework in Frameworks */,
+				6D9F455655AA4162A94E4FA3337ED429 /* UIKit.framework in Frameworks */,
+				9C94287A2994F5775220A9DD2BFB40CF /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C8B5B978360A16F1E1D5BD76AF88F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C9DBF37DBE1198116C6A1FD7D6EAB3 /* AEXML */,
+				B8ABE283DCB95004AC85687904CBBB25 /* Alamofire */,
+				D055127C3850AF2CCB997ED64AF27EDF /* RATreeView */,
+				6EFEE8FB5FAD67EEB5E94726B71F6FA6 /* SQLite.swift */,
+				83A294A936D83B01F6EBFC95F0955D2D /* SwiftyDropbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B81574147E9BCAA6D14C6CF9A62B135 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B883B1E4C67E61C7C78B4190CA814B4 /* RATreeView.modulemap */,
+				E660A6195381C7AFB0FFC9A767666D1B /* RATreeView.xcconfig */,
+				3F88F36C46E4566FAA6FF023A10AEAD6 /* RATreeView-dummy.m */,
+				56799AC752FC4183B87B7175A53089AD /* RATreeView-Info.plist */,
+				D759D1D7A0CC4AAB32F15DECC48DF236 /* RATreeView-prefix.pch */,
+				BE8968CB31D8497EDBB04A08BF5EF71F /* RATreeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RATreeView";
+			sourceTree = "<group>";
+		};
+		1EDD495BCF053C710D75A0D739D328D2 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7F5E84B3B17227D854E78568A7D61 /* AggregateFunctions.swift */,
+				C1C04B0854F0EBA0254B5FE7BF8AA27C /* Blob.swift */,
+				A1F865A6F2BDF973173313EAB1363576 /* Coding.swift */,
+				84C1C0EC4BBDF94C39E4F720FE3A0615 /* Collation.swift */,
+				F4DB4D348DDF910694852D58907A9D5F /* Connection.swift */,
+				C479B21922396787DC0F96BDA0AF6075 /* CoreFunctions.swift */,
+				36A9459ACF4BB5C09AF51EDCC16A4E81 /* CustomFunctions.swift */,
+				B75287FB3038B898C4F398D9A7E93BB2 /* DateAndTimeFunctions.swift */,
+				F31EDB5FCEA1803332FC7A5450B9824F /* Errors.swift */,
+				DB7779364CC35ACD981DF16C2CDA6A4B /* Expression.swift */,
+				BCA5E600A245FF7B319A107A12D39306 /* Foundation.swift */,
+				65EAAC209DD2DA068F08931F08821C1A /* fts3_tokenizer.h */,
+				CA0D3920FE6EB5872FFB9C4EFA1AF777 /* FTS4.swift */,
+				6C15C01E8D81992B107BC2354CE79A78 /* FTS5.swift */,
+				9BE5229293B04CB416B49B5C4DB6856F /* Helpers.swift */,
+				53A1096ABAA32DA1F3440184BFEFD0BB /* Operators.swift */,
+				9703F16D29633483897AF585FCA1B85B /* Query.swift */,
+				44DECA40EBC949D918E2E1C999D46F4B /* RTree.swift */,
+				246A16AEFD60427A85D5C5BA1569D8C9 /* Schema.swift */,
+				6CF98BACC854C0B2693042CAABB5399E /* Setter.swift */,
+				9D16ED544C2EE3A845A76ACB2BB10EEB /* SQLite.h */,
+				B14FECCB15C2DB138C9B0DB97B82E144 /* SQLiteObjc.h */,
+				2C3008FB5ABF1ACAAFA83B59CE02B7E0 /* SQLiteObjc.m */,
+				68C7EA297E72FE630DA8D6338CA80B7C /* Statement.swift */,
+				078617B6D94C33CF93AC437EBA5BEB98 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		5061F5912C9F3AB925849EA86C63927D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F499B1A9915F6CECB394091C9EB7528 /* Pods-MoFa */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6EFEE8FB5FAD67EEB5E94726B71F6FA6 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				1EDD495BCF053C710D75A0D739D328D2 /* standard */,
+				B47B46DFA8DB8293EAADD9607161AA9F /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		7F499B1A9915F6CECB394091C9EB7528 /* Pods-MoFa */ = {
+			isa = PBXGroup;
+			children = (
+				14D4DDD255CD45DE8844749E389FAAC8 /* Pods-MoFa.modulemap */,
+				8DF023FCA0E38A3551FD84C551525212 /* Pods-MoFa-acknowledgements.markdown */,
+				0B466492790B2871568344A59A0083C2 /* Pods-MoFa-acknowledgements.plist */,
+				6AB82A4E1DF6CD22848309D6EE147C62 /* Pods-MoFa-dummy.m */,
+				B9C76C6804D07651679118C858C4418D /* Pods-MoFa-frameworks.sh */,
+				1F0D47C85F4F24EC5A449D9765DD5331 /* Pods-MoFa-Info.plist */,
+				B84ECF69305384B8AA01917A1124C95B /* Pods-MoFa-umbrella.h */,
+				19F6F22B35AE6110C2AEFCD3C1BD462B /* Pods-MoFa.debug.xcconfig */,
+				543D1F2F8993B16F57EACA2795561D72 /* Pods-MoFa.release.xcconfig */,
+			);
+			name = "Pods-MoFa";
+			path = "Target Support Files/Pods-MoFa";
+			sourceTree = "<group>";
+		};
+		83A294A936D83B01F6EBFC95F0955D2D /* SwiftyDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				805AC11D8E1EE79C57D22F23F23904B4 /* AccessTokenProvider.swift */,
+				26B84DFC6B5E04C82EAC23659A1E2071 /* Account.swift */,
+				3E58730085D52015783C16188A41D860 /* AccountRoutes.swift */,
+				F6E7D2827E44F94C989F1976593FA023 /* Async.swift */,
+				9ECA198EF731C88BBDFB918837998B1C /* Auth.swift */,
+				C0456540DA9B5552D2906CD05E3AEF63 /* AuthRoutes.swift */,
+				7086CD5C2EA42CDF9A3DDDAF695C638C /* AuthSession.swift */,
+				25663800535CEDF70DFC67373A6DC8E5 /* Base.swift */,
+				B7309DE7FA898EEE08498FD6AC72EAED /* BaseTeam.swift */,
+				41A68833C372B663FBB78008EAED3A64 /* Check.swift */,
+				17C5926B02C078F214E94F4AB498E735 /* CheckRoutes.swift */,
+				7B0E1E79E43CE64CB8AC4F4A90E9225D /* ChunkInputStream.swift */,
+				462B6DB666DD4EB0662EADF71AE46887 /* Common.swift */,
+				27A7D1AE3F893B0EFF5EE52E71889830 /* Contacts.swift */,
+				69746C42AB701449243CE5A4F7ADCCF5 /* ContactsRoutes.swift */,
+				C85613D908B5D8EECCDA02838D7D0688 /* Custom.swift */,
+				9ADE1A3E33CC1504BB6F192BBD9901A1 /* CustomRoutes.swift */,
+				3F49051410C43288C3204E9E0FB75632 /* CustomTasks.swift */,
+				7A690556D66E0CD22D5E15EE04B670BA /* DropboxClient.swift */,
+				62072B86633D84C90F48170CC8644257 /* DropboxClientsManager.swift */,
+				B817DB86A52BCA8C9EA23D95402160C2 /* DropboxTeamClient.swift */,
+				7485CD4ABA6F652D7764BEED19F85B9B /* DropboxTransportClient.swift */,
+				72FA039E62E2C2467944FE0F2B82A00E /* FileProperties.swift */,
+				62BD12F76E73F772BC405535F313881A /* FilePropertiesRoutes.swift */,
+				0F6057D856CC560B395B1504443C1A4D /* FileRequests.swift */,
+				98267B7DFB903DDDDDA42CE729C182C6 /* FileRequestsRoutes.swift */,
+				7C1A50884D6005B0A5A6BF15754FCE3B /* Files.swift */,
+				9A031BB42C7B0F94C2A3B83C69F16A72 /* FilesRoutes.swift */,
+				A98F2BFAA2EDA6A8C16E44DF14F00523 /* LoadingViewController.swift */,
+				43AEF6874282EA0263CA136453F102D7 /* OAuth.swift */,
+				4C8AF7BDB37B46B3F878D855039809E3 /* OAuthConstants.swift */,
+				1BFF18D60A3E29FB13A613AF33A54F95 /* OAuthMobile.swift */,
+				58EF006B01A5B85216C12B5AC954C84E /* OAuthTokenRequest.swift */,
+				263140BB449BA6FC0217E7607D1EFE0A /* OAuthUtils.swift */,
+				735CF0349A7257946BFBA1C3469AA056 /* Paper.swift */,
+				CC216CCC127712D3E867858286D9FBFC /* PaperRoutes.swift */,
+				66C31D8B6CF3CB5D89F3F1DE8C6AA199 /* Request+TokenRefresh.swift */,
+				6F328D4690A329BCBE18819F2F40905C /* SDKConstants.swift */,
+				932F284A95486330558B5218AD3FC335 /* SecondaryEmails.swift */,
+				20ED40FB433A0E688EEBF04CF9EAF76B /* SeenState.swift */,
+				CB1FF87D1FD8D4FB04264723C89E0883 /* Sharing.swift */,
+				F1E3AC1C26DFCFB97A87E934C8AFBF1F /* SharingRoutes.swift */,
+				2EAEB1C52B7D46DAB7AD35FBE7145A8C /* StoneBase.swift */,
+				4115D605685D99F519B364DF15C271E7 /* StoneSerializers.swift */,
+				DC7F4A09C034CA7B11305718781989B8 /* StoneValidators.swift */,
+				B086BF2B93D56F33E373214B728FBB10 /* SwiftyDropbox.h */,
+				B9AAC809E2955A6C10DA733FBBE4717A /* Team.swift */,
+				A105CD8995CB3C8EBD6B47C67951C24F /* TeamCommon.swift */,
+				E2362ACBBA7DA5159007FEEFAF406FF2 /* TeamLog.swift */,
+				CC8655595A5315986AC331BC1487F656 /* TeamLogRoutes.swift */,
+				A9BDD797D580798DCE1962DEE9B54B2A /* TeamPolicies.swift */,
+				F0DA8494BF70B180D4DA6B4DF867FFC9 /* TeamRoutes.swift */,
+				E1BF02A3930F0668D878993C6D1E416D /* TransportConfig.swift */,
+				4713598EA3F5F1B5B5A339EEEA71D9FA /* Users.swift */,
+				CDF9127C54547171BF748F8613E25353 /* UsersCommon.swift */,
+				B67A7CC80714F2D4595301690677CCB6 /* UsersRoutes.swift */,
+				D52B9B8D5AA90379FE4516CB963D69D9 /* Support Files */,
+			);
+			name = SwiftyDropbox;
+			path = SwiftyDropbox;
+			sourceTree = "<group>";
+		};
+		89B4A16502F76C28AAA493397129777C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14D2936CC11AAF938BE4101EC2C2160 /* Alamofire.framework */,
+				A27B23793968ECDBBF30DAFF03E4BE1B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A27B23793968ECDBBF30DAFF03E4BE1B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D67576D04D88DDEA332763BFA15E2A94 /* Foundation.framework */,
+				BB64048F0425B8CBD6E65645EAF8BB66 /* SystemConfiguration.framework */,
+				FB55DD15E77CA76826F1A052723099CA /* UIKit.framework */,
+				E6A2F480394A496A77603E9FFF531D04 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B47B46DFA8DB8293EAADD9607161AA9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA94D94F1C60718B51AD40FA29E32F /* SQLite.swift.modulemap */,
+				DF8F9F6F5793E647A502FB62F91F3CF6 /* SQLite.swift.xcconfig */,
+				1BD9248D02024DD4E175A78FA4B2C1A1 /* SQLite.swift-dummy.m */,
+				263BD5B82716DEF184B5BAE972FC1322 /* SQLite.swift-Info.plist */,
+				35768FF0AA8B77930C468A80F9DFBC1D /* SQLite.swift-prefix.pch */,
+				318D2384D7B2D9EA5FBA8B7225055B19 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		B8ABE283DCB95004AC85687904CBBB25 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				71BD8F09CE263D199928E0E67D710A73 /* AFError.swift */,
+				EE17578843536FF69B02BBB9E70B3D71 /* Alamofire.swift */,
+				1147926870C51D9B628171BA6B2FB367 /* DispatchQueue+Alamofire.swift */,
+				759395174967628FC84156DFC1735FAF /* MultipartFormData.swift */,
+				69A8919E3524571B85B50553B54DD36C /* NetworkReachabilityManager.swift */,
+				D0A4F927987382C02854DD1431600C46 /* Notifications.swift */,
+				D450F2A5CC87609C2887402170EB0865 /* ParameterEncoding.swift */,
+				30A49D6BAD373FE0E75EE3A6A6EA8C88 /* Request.swift */,
+				847241DA09C6B2D63ECBBCF479DCF6D5 /* Response.swift */,
+				27A7D025BC2D5FED32151E4B78A77897 /* ResponseSerialization.swift */,
+				68D15DBC39174C308864D7C113205FCD /* Result.swift */,
+				955A216D9BF12F1EC3B69A5DF5FDA25A /* ServerTrustPolicy.swift */,
+				C8AC5F07ECE3F08D6C04B01512510C45 /* SessionDelegate.swift */,
+				707B1A348A016AC6B7EC724FFA31F795 /* SessionManager.swift */,
+				1E9D9F8F1444593B3AE233ED6BAD8EEA /* TaskDelegate.swift */,
+				912403FC4E25DB44E17F655FBA76A32D /* Timeline.swift */,
+				83F6EC3FDC822C7920D665824870A44E /* Validation.swift */,
+				F5B84431C1160F3CB68BD7172BA2048F /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CE55F7AEC5D1CC92BC492127F73C5FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				FD640232CB6FE745BCCBE7878E6705CC /* Pods_MoFa.framework */,
+				5B4CCE945DA52B68861D70271B3A9267 /* RATreeView.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+				1CBA76EDD27FA2D20B1EA0F0BF7F082C /* SwiftyDropbox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				89B4A16502F76C28AAA493397129777C /* Frameworks */,
+				12C8B5B978360A16F1E1D5BD76AF88F9 /* Pods */,
+				CE55F7AEC5D1CC92BC492127F73C5FFE /* Products */,
+				5061F5912C9F3AB925849EA86C63927D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D055127C3850AF2CCB997ED64AF27EDF /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				88D6382E54CB413658FDF424F6147039 /* RABatchChanges.h */,
+				8E49654C73398A30141D0F32DE6C0783 /* RABatchChanges.m */,
+				F47220CB981472BD83C0DB8654BA697F /* RATreeNode.h */,
+				FACD608317B5018119890FE74FA73DF0 /* RATreeNode.m */,
+				86DF5D57C7A55E2D974C1396890444A2 /* RATreeNode_ClassExtension.h */,
+				115E61DB4D4CB37D5535043C5E927027 /* RATreeNodeCollectionController.h */,
+				5F4EA9BD18A7DBAD15151ED5ED077F9F /* RATreeNodeCollectionController.m */,
+				67743E6A6A3221DCD12E919716CCDB51 /* RATreeNodeController.h */,
+				ADD131E54DB09210E77FE176B2B68ECD /* RATreeNodeController.m */,
+				A6C15FCD82140ECD277B882AFD636AC6 /* RATreeNodeItem.h */,
+				8BD2C64571C498097E648E1A51624B00 /* RATreeNodeItem.m */,
+				148352A55B7474D382177F8E05E2D80C /* RATreeNodeItem+ClassExtension.h */,
+				1BB48CAF43BE89630BABF67C2838BF19 /* RATreeNodeItem+Private.h */,
+				D90D019DDD994606E4DEC49F2700959F /* RATreeNodeItem+Private.m */,
+				C17AF0274BB855D8C985DE32380973C5 /* RATreeView.h */,
+				105570791C5098ABB40AA7DC71539D8B /* RATreeView.m */,
+				96B731315D9792BD5A5055EE570769B8 /* RATreeView+Enums.h */,
+				17AF75310CFD89A9A2BDE6AD555E7B94 /* RATreeView+Enums.m */,
+				4FDA42F5013DDD0660633F47D96E240E /* RATreeView+Private.h */,
+				64B1259C3765D336551C3F4365B5260C /* RATreeView+Private.m */,
+				CA5C8D6B8897126CF41ADB516DC88D40 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				4F0DF72BDE738506F348944F74960A14 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				CA9750B1CAF6D4A66495A71EF000EBD0 /* RATreeView+TableViewDataSource.h */,
+				57EC291AB286241F2DE805ECC5FEECB2 /* RATreeView+TableViewDataSource.m */,
+				DF744156E24D4290EDD39252B17D17E8 /* RATreeView+TableViewDelegate.h */,
+				699614952894C9DF7D9724BB420C27A8 /* RATreeView+TableViewDelegate.m */,
+				11E5B426D9E89109D43B6A0936D00F64 /* RATreeView+UIScrollView.h */,
+				2FCA42CA371066EF275931DC2FBE5CD7 /* RATreeView+UIScrollView.m */,
+				9B446D7CA36AA897B36548BC7D95EC5E /* RATreeView_ClassExtension.h */,
+				1B81574147E9BCAA6D14C6CF9A62B135 /* Support Files */,
+			);
+			name = RATreeView;
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
+		D52B9B8D5AA90379FE4516CB963D69D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A3E7FDEC97670A56B80909760A22BC /* SwiftyDropbox.modulemap */,
+				A344ED795813E2D3271C87C572554653 /* SwiftyDropbox.xcconfig */,
+				83302BD9A89A9B37B39E97072296A68A /* SwiftyDropbox-dummy.m */,
+				627288356F0358F0DE5150777E3FC483 /* SwiftyDropbox-Info.plist */,
+				72E3648503FFF9809C90430DC658591C /* SwiftyDropbox-prefix.pch */,
+				80654662A5F775E0058091EAB780FB51 /* SwiftyDropbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyDropbox";
+			sourceTree = "<group>";
+		};
+		D7C9DBF37DBE1198116C6A1FD7D6EAB3 /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				B174C15DAEEAC2880DC229FF37E2161A /* Document.swift */,
+				35D808BA2114FB29EEF3401E8646C291 /* Element.swift */,
+				13F65E0A36B87A27533A48AF040634AA /* Error.swift */,
+				6DE7690B555B0CB290413423BF1CD5AE /* Options.swift */,
+				3A95A41F773406A127CD8E737CA5E9FE /* Parser.swift */,
+				E0AA6EA2DC39D2D137C2F3A53BECE97A /* Support Files */,
+			);
+			name = AEXML;
+			path = AEXML;
+			sourceTree = "<group>";
+		};
+		E0AA6EA2DC39D2D137C2F3A53BECE97A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2916EA3B44058DE7137C55113BF1957B /* AEXML.modulemap */,
+				63074B35E693CBEF3F00F948327E5A3E /* AEXML.xcconfig */,
+				1A61C8FAAF635AAF5408A205FF1D23BC /* AEXML-dummy.m */,
+				5F7426B6997EF3210A48DA961B8268FF /* AEXML-Info.plist */,
+				C3899843E3A3AA86CBA5398D49BB53F0 /* AEXML-prefix.pch */,
+				22391A93F439BE4BB02CE00B501A0727 /* AEXML-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
+			sourceTree = "<group>";
+		};
+		F5B84431C1160F3CB68BD7172BA2048F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6518B48B3EE40F766A9092DAA548A923 /* Alamofire.modulemap */,
+				8C697E6944B5634527D5E1CB34ADCE4D /* Alamofire.xcconfig */,
+				2C6EA15A06101CE02B2F037F8683A19E /* Alamofire-dummy.m */,
+				AF0092D565F497A7BF1599B382E3EB70 /* Alamofire-Info.plist */,
+				50A66AB74EDEC8BB3E6911C0C8C260D2 /* Alamofire-prefix.pch */,
+				8290D22D7D9A07DB26B15FF53AD1C571 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E275BFCD3FC9C519A45B91991630BB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025E4745ADDE01C5C957867B90E773B9 /* AEXML-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422B2CD285220AB08C3C47DF6E083469 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B84574C464ADCD57504F527F03012 /* Pods-MoFa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E96E7F98796026C6760BA3D13C69C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */,
+				B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */,
+				18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */,
+				EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C6E1B8AAF104EC540B47459C060E3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37BFE8EA549C2EFEE244E372F941AA1 /* RABatchChanges.h in Headers */,
+				B45367848B7BC1CF991E7438A0AD2821 /* RATreeNode.h in Headers */,
+				D42874B7C54A47689BF901FFE7C05121 /* RATreeNode_ClassExtension.h in Headers */,
+				046076FFBEBCDE7EF46E3D77D6BD5DF2 /* RATreeNodeCollectionController.h in Headers */,
+				32173AA57C68EC8CD1847C1BD9936041 /* RATreeNodeController.h in Headers */,
+				675D0935B15D225FCA314135F8501460 /* RATreeNodeItem+ClassExtension.h in Headers */,
+				B4E4C394EE0D00D186162EA26E62A948 /* RATreeNodeItem+Private.h in Headers */,
+				26BD26BD1770977396B9365B7FD0F34D /* RATreeNodeItem.h in Headers */,
+				2FF255ABB5EC32DBEF7D376E8A0E459E /* RATreeView+Enums.h in Headers */,
+				588699F886DCA749B8FF75300F2E2F67 /* RATreeView+Private.h in Headers */,
+				F2FCE3EA1218B28C858A29CE3B769844 /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */,
+				691AC1D9DAA8213463161A0E20919DEB /* RATreeView+TableViewDataSource.h in Headers */,
+				4E2ABEBEA09FA7EC198BF454A34666C5 /* RATreeView+TableViewDelegate.h in Headers */,
+				CAFA720C00095EDBBC4E5ADF57E9EEBF /* RATreeView+UIScrollView.h in Headers */,
+				5EF858DA23A3FBF9FE3457223C8AB5D4 /* RATreeView-umbrella.h in Headers */,
+				268E5C507456A6E3DF4B46D435F97EF7 /* RATreeView.h in Headers */,
+				8AE5EAF48DF391075A16C63FCD12165B /* RATreeView_ClassExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0279EFCE5122E212CD61D328D7B2951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0414C109359B86DE33629B76B10BE0E /* SwiftyDropbox-umbrella.h in Headers */,
+				0E81637F80CF34C27D3414B79E2D205B /* SwiftyDropbox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				96E96E7F98796026C6760BA3D13C69C9 /* Headers */,
+				B91BEE056ED605FA41420BC2F6F79D91 /* Sources */,
+				A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */,
+				437C6008F3714B5A8E869C50746FC132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68F0AAE2125542D37A3D74D0D3932309 /* RATreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66855962B1A77B22E45BC79AF9F22B91 /* Build configuration list for PBXNativeTarget "RATreeView" */;
+			buildPhases = (
+				A7C6E1B8AAF104EC540B47459C060E3D /* Headers */,
+				78BCC08853FA3DD9059CC37DCD788F6B /* Sources */,
+				4B532E9C51737AA9C80C4DF57D75E78D /* Frameworks */,
+				709445D551728D4F11E3A0F59540F4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RATreeView;
+			productName = RATreeView;
+			productReference = 5B4CCE945DA52B68861D70271B3A9267 /* RATreeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0C3B2890BA25B4203C768E55BB4D4FA /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055EA5A1FFC43D5A1D319F239210F78E /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				1E275BFCD3FC9C519A45B91991630BB5 /* Headers */,
+				0DF4EE6A05338F0B0A251A0446F16F42 /* Sources */,
+				AA682032B7E56B95263D0F7F6C0F636A /* Frameworks */,
+				9BE77852E88C75ACE7370DC9591DE37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE80847905AB6C14487BC8DBE03D3F4E /* Pods-MoFa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AD98BA847CF536C646164CAD350BEB /* Build configuration list for PBXNativeTarget "Pods-MoFa" */;
+			buildPhases = (
+				422B2CD285220AB08C3C47DF6E083469 /* Headers */,
+				19FC1140AB4161F4DA8905CAD378A277 /* Sources */,
+				1F369197A6F3F879ADA95A74196C3AF6 /* Frameworks */,
+				41CD3820FD8D0F57BAA6AB36317C4233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3A6B6E494799CFD939D8FF7684DD17 /* PBXTargetDependency */,
+				045C718D4721058D039DAF6FE5FFEA06 /* PBXTargetDependency */,
+				337488B89B9F711D5325482BEF63B373 /* PBXTargetDependency */,
+				26EBD4B13D12780AF5B9FCF1A07B0916 /* PBXTargetDependency */,
+				B4D7985EBC146BAC4C8DEB51A649F19A /* PBXTargetDependency */,
+			);
+			name = "Pods-MoFa";
+			productName = "Pods-MoFa";
+			productReference = FD640232CB6FE745BCCBE7878E6705CC /* Pods_MoFa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF39B7A1D9F00620D9F56635ABBB2C03 /* SwiftyDropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9797241F9B68B9B66946D08A7D08F75 /* Build configuration list for PBXNativeTarget "SwiftyDropbox" */;
+			buildPhases = (
+				E0279EFCE5122E212CD61D328D7B2951 /* Headers */,
+				7F260D7818363E9522EE2EA5FAEB9B1C /* Sources */,
+				AAB0A31C27404F2B8211B2A9D4DFE50C /* Frameworks */,
+				3FF348159C1E08A3ABF83DE361008C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97355AD48D0E607B3F6E8E17AC60EE94 /* PBXTargetDependency */,
+			);
+			name = SwiftyDropbox;
+			productName = SwiftyDropbox;
+			productReference = 1CBA76EDD27FA2D20B1EA0F0BF7F082C /* SwiftyDropbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE55F7AEC5D1CC92BC492127F73C5FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C3B2890BA25B4203C768E55BB4D4FA /* AEXML */,
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				DE80847905AB6C14487BC8DBE03D3F4E /* Pods-MoFa */,
+				68F0AAE2125542D37A3D74D0D3932309 /* RATreeView */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+				FF39B7A1D9F00620D9F56635ABBB2C03 /* SwiftyDropbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF348159C1E08A3ABF83DE361008C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD3820FD8D0F57BAA6AB36317C4233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C6008F3714B5A8E869C50746FC132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709445D551728D4F11E3A0F59540F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE77852E88C75ACE7370DC9591DE37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF4EE6A05338F0B0A251A0446F16F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EB808E634237B2F4686512FBA84E18 /* AEXML-dummy.m in Sources */,
+				CC146A2FEE2FCEAAC68B5673270E7BD0 /* Document.swift in Sources */,
+				0608DB0E4FA499C235A5FDB6F67E512A /* Element.swift in Sources */,
+				71F5F20ED04F7C7998F501A8A1595239 /* Error.swift in Sources */,
+				415CAB5AE7BEEC0076B69C105EC82C33 /* Options.swift in Sources */,
+				BA101B1B47BFF5AE1E99214767102F6E /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FC1140AB4161F4DA8905CAD378A277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B825F0872180DEDD00B2472F73D6B /* Pods-MoFa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BCC08853FA3DD9059CC37DCD788F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654407BF767B25416D925EAEDA3DDB8 /* RABatchChanges.m in Sources */,
+				EABD702B4968C575193EAF6BBA9ED7F7 /* RATreeNode.m in Sources */,
+				A5FE5B54EAF0A0965D0AAF4D473D3912 /* RATreeNodeCollectionController.m in Sources */,
+				599B6D9C5B2C98415B560920D66DAEC3 /* RATreeNodeController.m in Sources */,
+				48A7CC55212A2175C586A71A21E1C99E /* RATreeNodeItem+Private.m in Sources */,
+				91E308F07E66BD89B8AED5642AB5C3A2 /* RATreeNodeItem.m in Sources */,
+				B168ADC8BDAFCFA827709D1A727E21DA /* RATreeView+Enums.m in Sources */,
+				285A0E67F1EDD301A9D2401D66D3298F /* RATreeView+Private.m in Sources */,
+				F518D8FE2829CB8289E3CC8E3A239AEA /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				46E7586E913D2F626AB2D4909FCA0C5A /* RATreeView+TableViewDataSource.m in Sources */,
+				1C2938141DAE6A2DFA0C6985F0D45ECB /* RATreeView+TableViewDelegate.m in Sources */,
+				E7F30DA9AFBF91B057CCA2763532060B /* RATreeView+UIScrollView.m in Sources */,
+				6C0E1C3D9FA1C2D635308DBD52949FBF /* RATreeView-dummy.m in Sources */,
+				6DA519522CBFFBF923125B31F63B4399 /* RATreeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F260D7818363E9522EE2EA5FAEB9B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C0EA4EAF6BEE6F148AF13C9B8D6EF /* AccessTokenProvider.swift in Sources */,
+				DB96409161B8744FF813F1C567944EE2 /* Account.swift in Sources */,
+				934E77BCA2DAE39AC8C00D98BD2ED2FE /* AccountRoutes.swift in Sources */,
+				36B0A1C97D6D1499856F05AA235B5A05 /* Async.swift in Sources */,
+				396AC6A1175B462633AD76C770138203 /* Auth.swift in Sources */,
+				F6D5F88F0E51E468E781B6CC00D6C781 /* AuthRoutes.swift in Sources */,
+				F6F926EDFA52BE7D64FF08F8F3783D4F /* AuthSession.swift in Sources */,
+				7FC99E0C02128E7FDDC4F65675F064A8 /* Base.swift in Sources */,
+				38DB166FA0CF9511BD71C5D124512893 /* BaseTeam.swift in Sources */,
+				3837B4382D9A654006ED12B6C2FAA63C /* Check.swift in Sources */,
+				EFF4AD7B733406CE12346E43263F38D0 /* CheckRoutes.swift in Sources */,
+				A2FAAFBFA98C936E122E8A5A610874D3 /* ChunkInputStream.swift in Sources */,
+				A58DB8F40CFFFFACFC4D98982C9C19E7 /* Common.swift in Sources */,
+				D20F0592FD4F21EBA4B8D5CEE8F7CCC8 /* Contacts.swift in Sources */,
+				CBA5E406EDA54E3A6F7512F368F6B46C /* ContactsRoutes.swift in Sources */,
+				CAC6BE7FA845F785EE79FBD2953D030F /* Custom.swift in Sources */,
+				A95E9D904513CE66E6ACB24B6CFB5223 /* CustomRoutes.swift in Sources */,
+				E5EC352EB61C5E3D77950ACEB715D400 /* CustomTasks.swift in Sources */,
+				BA900BA1152D0C49A1123FFDC9642929 /* DropboxClient.swift in Sources */,
+				4A8CF8318EB41CD89936B53AD3CD988A /* DropboxClientsManager.swift in Sources */,
+				F71ED324BF38FE2218D15EF86732B3C7 /* DropboxTeamClient.swift in Sources */,
+				6A9EB4A6886B00300AE36DB754A36E96 /* DropboxTransportClient.swift in Sources */,
+				04CFC85E147A1204CE69DD54B3A13FC2 /* FileProperties.swift in Sources */,
+				9A4DA66E4BDDB4DA62B17F2E847A6FDD /* FilePropertiesRoutes.swift in Sources */,
+				60F2EDA8CEF84EC9FA62B0B4EFD2207B /* FileRequests.swift in Sources */,
+				1907BE52632BC4790EAD0B3FED92D883 /* FileRequestsRoutes.swift in Sources */,
+				0FB86828D0ED02E249617CA9F3E27FB4 /* Files.swift in Sources */,
+				4F2C77A81D5DB4CD4B73277E1F299D7D /* FilesRoutes.swift in Sources */,
+				DC11A87F3DE12F1260329799AC291954 /* LoadingViewController.swift in Sources */,
+				16A57216C169B312F9922A8923D57D40 /* OAuth.swift in Sources */,
+				6E5EE4552AFB2C8F9E25C38CA2339A11 /* OAuthConstants.swift in Sources */,
+				F57E5FFD48BB983E41161CE24FAD4BCA /* OAuthMobile.swift in Sources */,
+				C95EB5BBD3AC2388465963F5CD23364D /* OAuthTokenRequest.swift in Sources */,
+				80FCBE059F8ECD4ED19E8F87736B8151 /* OAuthUtils.swift in Sources */,
+				EB8AAC3C45DF180432F2F2732102AA3E /* Paper.swift in Sources */,
+				0CA649B990C2E38DD3D5889A41086822 /* PaperRoutes.swift in Sources */,
+				A28901F4EA3289BAEFED54058AF06A3C /* Request+TokenRefresh.swift in Sources */,
+				F06264E7CCF00CBB10059A8FF08E810A /* SDKConstants.swift in Sources */,
+				78DE19B0A57149E1F1E23301BF05A44B /* SecondaryEmails.swift in Sources */,
+				8FA371621C013CA86DF9E5BBF36E08D5 /* SeenState.swift in Sources */,
+				E356C8031D8922A7F7179E46108AB801 /* Sharing.swift in Sources */,
+				57342085163EB8167BDDCB7452C6558C /* SharingRoutes.swift in Sources */,
+				865DF9B34E8B14F3E3BA17840C6137F1 /* StoneBase.swift in Sources */,
+				02066C4F3FFA658CE0C22CDFBC2E07DE /* StoneSerializers.swift in Sources */,
+				2A94C7CD51E8526A3F5F6DE6E40663BD /* StoneValidators.swift in Sources */,
+				0FE561EC31EE2223EF5BCE9577CAE3B5 /* SwiftyDropbox-dummy.m in Sources */,
+				87101CA91AC054ABFD70ADB0688CE1AA /* Team.swift in Sources */,
+				412EB6A87614F83592EC001F7694D098 /* TeamCommon.swift in Sources */,
+				F211383225E61A04B10398E24F580187 /* TeamLog.swift in Sources */,
+				0B20C4C471408ED80C340E1F0E7B50C2 /* TeamLogRoutes.swift in Sources */,
+				1FE1F195BC04C5CBEE00AE67EF6AAD10 /* TeamPolicies.swift in Sources */,
+				609E4F59252A6A42DDD7EEA1F05845F7 /* TeamRoutes.swift in Sources */,
+				49FBAD876AE6A26B4FB2D937B370E748 /* TransportConfig.swift in Sources */,
+				BC26A1ED697B1C58BB3B8926E089912F /* Users.swift in Sources */,
+				E4775317CEE2D616BC4AF32CC30B90CD /* UsersCommon.swift in Sources */,
+				52BDE56B5D5F6187D5FBE76582C4CA6B /* UsersRoutes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91BEE056ED605FA41420BC2F6F79D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */,
+				2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */,
+				188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */,
+				EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */,
+				16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */,
+				1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */,
+				C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */,
+				A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */,
+				5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */,
+				13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */,
+				348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */,
+				03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */,
+				A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */,
+				79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */,
+				5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */,
+				444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */,
+				4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */,
+				F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */,
+				D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */,
+				67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */,
+				4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */,
+				31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */,
+				5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045C718D4721058D039DAF6FE5FFEA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8CD4ACA3D40A4DF4C8B07391CEF0B28E /* PBXContainerItemProxy */;
+		};
+		26EBD4B13D12780AF5B9FCF1A07B0916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 49EE599F27F7F771E29540B9C7A21202 /* PBXContainerItemProxy */;
+		};
+		337488B89B9F711D5325482BEF63B373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RATreeView;
+			target = 68F0AAE2125542D37A3D74D0D3932309 /* RATreeView */;
+			targetProxy = FDA198AC1E7B0856C77E34A0BF5C2479 /* PBXContainerItemProxy */;
+		};
+		3E3A6B6E494799CFD939D8FF7684DD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = D0C3B2890BA25B4203C768E55BB4D4FA /* AEXML */;
+			targetProxy = BF93385D0EF750C1103E6B4DDA6704C6 /* PBXContainerItemProxy */;
+		};
+		97355AD48D0E607B3F6E8E17AC60EE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 0ABB886FBDCE48AAE6B74241D787F11C /* PBXContainerItemProxy */;
+		};
+		B4D7985EBC146BAC4C8DEB51A649F19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyDropbox;
+			target = FF39B7A1D9F00620D9F56635ABBB2C03 /* SwiftyDropbox */;
+			targetProxy = DC41C6C04999ED156011F27319EE25C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18E81C35B363F78556D9F1264FAF86C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E660A6195381C7AFB0FFC9A767666D1B /* RATreeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/RATreeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				PRODUCT_MODULE_NAME = RATreeView;
+				PRODUCT_NAME = RATreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		245C98DF51B242CBBE74FE988C7440E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543D1F2F8993B16F57EACA2795561D72 /* Pods-MoFa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoFa/Pods-MoFa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoFa/Pods-MoFa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32D626A4C39330751834B15000C1ADC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63074B35E693CBEF3F00F948327E5A3E /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6957D7F3826F9B061FA690D6549842C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8F9F6F5793E647A502FB62F91F3CF6 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C697E6944B5634527D5E1CB34ADCE4D /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E0DC21AED9159D03FE3BA3141F8AACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F6F22B35AE6110C2AEFCD3C1BD462B /* Pods-MoFa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoFa/Pods-MoFa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoFa/Pods-MoFa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EF15CD38532E03460BD1D1F8453F454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A344ED795813E2D3271C87C572554653 /* SwiftyDropbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyDropbox/SwiftyDropbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyDropbox/SwiftyDropbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyDropbox/SwiftyDropbox.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyDropbox;
+				PRODUCT_NAME = SwiftyDropbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B657FFA1E47F56D3C8E57979CA30544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8F9F6F5793E647A502FB62F91F3CF6 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE2DBD0D13DEC910AC21F4679015D4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E660A6195381C7AFB0FFC9A767666D1B /* RATreeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/RATreeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				PRODUCT_MODULE_NAME = RATreeView;
+				PRODUCT_NAME = RATreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB235252506717464A11C3E459BF86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A344ED795813E2D3271C87C572554653 /* SwiftyDropbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyDropbox/SwiftyDropbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyDropbox/SwiftyDropbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyDropbox/SwiftyDropbox.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyDropbox;
+				PRODUCT_NAME = SwiftyDropbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F575429239F9B0D3D637B26A1212A611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63074B35E693CBEF3F00F948327E5A3E /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C697E6944B5634527D5E1CB34ADCE4D /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055EA5A1FFC43D5A1D319F239210F78E /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D626A4C39330751834B15000C1ADC3 /* Debug */,
+				F575429239F9B0D3D637B26A1212A611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AD98BA847CF536C646164CAD350BEB /* Build configuration list for PBXNativeTarget "Pods-MoFa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0DC21AED9159D03FE3BA3141F8AACA /* Debug */,
+				245C98DF51B242CBBE74FE988C7440E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B657FFA1E47F56D3C8E57979CA30544F /* Debug */,
+				6957D7F3826F9B061FA690D6549842C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66855962B1A77B22E45BC79AF9F22B91 /* Build configuration list for PBXNativeTarget "RATreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E81C35B363F78556D9F1264FAF86C3 /* Debug */,
+				BE2DBD0D13DEC910AC21F4679015D4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9797241F9B68B9B66946D08A7D08F75 /* Build configuration list for PBXNativeTarget "SwiftyDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF15CD38532E03460BD1D1F8453F454 /* Debug */,
+				CB235252506717464A11C3E459BF86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
+				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
